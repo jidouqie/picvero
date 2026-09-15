@@ -1,5 +1,15 @@
 # Picvero｜发商品照片，交电商套图与文案
 
+## 一句话安装
+
+**复制下面这句话，发给 Codex，它会帮你安装：**
+
+```text
+请使用 $skill-installer 从 https://github.com/jidouqie/picvero/tree/main/skills/picvero 安装 Picvero，完整安装该技能目录及其子文件夹，并检查安装结果。
+```
+
+安装完成后，发商品照片并说 **“用 Picvero 做电商套图”** 即可开始。只需安装这一个主入口，就能制作套图、文案和详情页。
+
 [![CI](https://github.com/jidouqie/picvero/actions/workflows/ci.yml/badge.svg)](https://github.com/jidouqie/picvero/actions/workflows/ci.yml) · [MIT 许可](LICENSE) · [下载安装包](https://github.com/jidouqie/picvero/releases/latest)
 
 **只发商品照片，自动按款归类：发几款就完整做几套，每款五张电商图、上架文案与详情页草稿。**
@@ -67,7 +77,9 @@ HTML 是查看完整成果的主入口，图片和文案集中展示，支持电
 
 ## 安装
 
-推荐下载 **[picvero-0.5.6.zip](https://github.com/jidouqie/picvero/releases/download/v0.5.6/picvero-0.5.6.zip)**，解压后把 `picvero` 文件夹放入 `~/.agents/skills/`。一个技能就能完成上面的任务，其余七个技能是可选的快捷入口。需要全部入口时，下载 [八技能完整包](https://github.com/jidouqie/picvero/releases/download/v0.5.6/picvero-skills-0.5.6.zip)。
+推荐直接复制本文开头的安装提示词，让 Codex 完成安装。Codex 支持通过 `$skill-installer` 从其他 GitHub 仓库安装技能，见 [官方技能安装说明](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use)。
+
+也可以手动下载 **[picvero-0.5.6.zip](https://github.com/jidouqie/picvero/releases/download/v0.5.6/picvero-0.5.6.zip)**，解压后把 `picvero` 文件夹放入 `~/.agents/skills/`。一个技能就能完成上面的任务，其余七个技能是可选的快捷入口。需要全部入口时，下载 [八技能完整包](https://github.com/jidouqie/picvero/releases/download/v0.5.6/picvero-skills-0.5.6.zip)。
 
 需要具备内置图片生成能力的 Codex 会话；本包不附带模型，也不提供独立生图服务器。本地文件整理工具需要 Python 3.10+，核心运行不需要额外 Python 依赖。
 
