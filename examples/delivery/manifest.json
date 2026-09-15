@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "label": "货映原生链路演示 · 虚构测试商品",
+  "created_at": "2026-09-14T17:07:46.927297+00:00",
+  "draft_export": false,
+  "items": [
+    {
+      "sku": "HY17",
+      "product": "HY-17 三格收纳盒（虚构样本）",
+      "shot": {
+        "id": "main",
+        "kind": "packshot",
+        "goal": "白底展示虚构测试商品；检验原生改图与保存",
+        "text": [],
+        "fact_ids": [
+          "compartments",
+          "label"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "file": "images/HY17/main-v1.png",
+      "sha256": "0d96afeecc09662198aee2cb1d4fb025553fab5c68fe76c8f9292241c4f6f2f4",
+      "review_status": "reviewed_candidate",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "front",
+          "role": "product",
+          "file": "references/HY17/front.png",
+          "sha256": "48cf89986e7c948831916dc29179b9a37bf4557877c389e387580c5ed17dbf71"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "0d96afeecc09662198aee2cb1d4fb025553fab5c68fe76c8f9292241c4f6f2f4",
+        "reference_sha256": {
+          "front": "48cf89986e7c948831916dc29179b9a37bf4557877c389e387580c5ed17dbf71"
+        },
+        "reviewer": "固定虚构样本的已记录 Codex 视觉检查；回放不重新评图",
+        "checks": {
+          "identity": {
+            "status": "pass",
+            "evidence": "对照虚构原图，三个开放分隔、长方形整体、正面标签和右侧圆点均保留；未作真实物理尺寸或精确色差测量。"
+          },
+          "text": {
+            "status": "pass",
+            "evidence": "原图与白底图的标签均可读为 HY-17，无新增宣传文字。"
+          },
+          "claims": {
+            "status": "not_applicable",
+            "evidence": "本图未加入材质、容量、尺寸、认证或性能声明。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "商品完整可见，白底与接触阴影连贯，主要边缘未发现明显断裂。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "满足本次白底展示演示的用途；未指定真实售卖平台，不代表任何平台审核通过。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "HY17",
+      "product": "HY-17 三格收纳盒（虚构样本）",
+      "shot": {
+        "id": "scene",
+        "kind": "scene",
+        "goal": "放在浅色桌面；除一本合上的笔记本外不增加其他道具",
+        "text": [],
+        "fact_ids": [
+          "compartments",
+          "label"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "file": "images/HY17/scene-v2.png",
+      "sha256": "08604d6cea35889a9df9e0fe22a01d75b04bd1c42932385df9ef6159e5cc5084",
+      "review_status": "reviewed_candidate",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "front",
+          "role": "product",
+          "file": "references/HY17/front.png",
+          "sha256": "48cf89986e7c948831916dc29179b9a37bf4557877c389e387580c5ed17dbf71"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "08604d6cea35889a9df9e0fe22a01d75b04bd1c42932385df9ef6159e5cc5084",
+        "reference_sha256": {
+          "front": "48cf89986e7c948831916dc29179b9a37bf4557877c389e387580c5ed17dbf71"
+        },
+        "reviewer": "固定虚构样本的已记录 Codex 视觉检查；回放不重新评图",
+        "checks": {
+          "identity": {
+            "status": "pass",
+            "evidence": "同时对照原始样本与上一版，三格结构、标签及黄色圆点保留；本演示不检验真实材质或物理色差。"
+          },
+          "text": {
+            "status": "pass",
+            "evidence": "HY-17 标签保持可读，未出现其他文字。"
+          },
+          "claims": {
+            "status": "not_applicable",
+            "evidence": "没有添加尺寸、材质、认证、销量或性能信息。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "产品完整可见，接触阴影与原场景相容，没有发现移除道具后的明显残留边缘。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "绿植、笔筒与挂画已移除；背景只保留指定笔记本。该结果仅作为虚构样本的功能演示候选。"
+          }
+        }
+      }
+    }
+  ],
+  "omitted": []
+}

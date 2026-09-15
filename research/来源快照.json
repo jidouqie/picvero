@@ -1,0 +1,483 @@
+{
+  "checked_on": "2026-09-15",
+  "method": "Public repository tree and selected raw source inspection; third-party scripts were not executed. File git blob hashes checked against API tree.",
+  "repositories": [
+    {
+      "repository": "meitu/designkit-skills",
+      "commit": "1b3bea5215903f802d839c54e3fc90706f15c7c7",
+      "committed_at": "2026-03-26T06:26:02Z",
+      "url": "https://github.com/meitu/designkit-skills/tree/1b3bea5215903f802d839c54e3fc90706f15c7c7",
+      "tree_complete": true
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "committed_at": "2026-08-28T09:31:25Z",
+      "url": "https://github.com/meitu/meitu-skills/tree/95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "tree_complete": true
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "committed_at": "2026-09-14T02:38:53Z",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/tree/5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "tree_complete": true
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "commit": "d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4",
+      "committed_at": "2026-09-14T11:23:17Z",
+      "url": "https://github.com/nexu-io/open-design/tree/d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4",
+      "tree_complete": true
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "committed_at": "2026-08-27T06:33:14Z",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/tree/2d508bd990df0397026406f210a5915b2c955469",
+      "tree_complete": true
+    }
+  ],
+  "files": [
+    {
+      "repository": "meitu/designkit-skills",
+      "path": "README.md",
+      "commit": "1b3bea5215903f802d839c54e3fc90706f15c7c7",
+      "url": "https://github.com/meitu/designkit-skills/blob/1b3bea5215903f802d839c54e3fc90706f15c7c7/README.md",
+      "sha256": "bbb84a5b891adc92e331a85623275b1eb7b96e70d7e33fe8d6d552fcc889e19c",
+      "git_blob_sha": "de1543ec54d17c9ec6ca77d4191ed76a610e86f4",
+      "matches_api_tree": true,
+      "bytes": 1997
+    },
+    {
+      "repository": "meitu/designkit-skills",
+      "path": "SKILL.md",
+      "commit": "1b3bea5215903f802d839c54e3fc90706f15c7c7",
+      "url": "https://github.com/meitu/designkit-skills/blob/1b3bea5215903f802d839c54e3fc90706f15c7c7/SKILL.md",
+      "sha256": "24cd8567d02a5766b66b483e5d2d8c34a2d27389c9d61060b1c5e9c03c3c8557",
+      "git_blob_sha": "7f8d947c6c8d260d85d27d17b9e848918fbc31fb",
+      "matches_api_tree": true,
+      "bytes": 5738
+    },
+    {
+      "repository": "meitu/designkit-skills",
+      "path": "skills/designkit-ecommerce-product-kit/SKILL.md",
+      "commit": "1b3bea5215903f802d839c54e3fc90706f15c7c7",
+      "url": "https://github.com/meitu/designkit-skills/blob/1b3bea5215903f802d839c54e3fc90706f15c7c7/skills/designkit-ecommerce-product-kit/SKILL.md",
+      "sha256": "ef37a665f412d25d869da9a7cb079ae8b6f7e66de9f5465ed339b631d82de47b",
+      "git_blob_sha": "87235b4e5ac55c752da0540e205e52f300bee9d5",
+      "matches_api_tree": true,
+      "bytes": 7053
+    },
+    {
+      "repository": "meitu/designkit-skills",
+      "path": "skills/designkit-edit-tools/SKILL.md",
+      "commit": "1b3bea5215903f802d839c54e3fc90706f15c7c7",
+      "url": "https://github.com/meitu/designkit-skills/blob/1b3bea5215903f802d839c54e3fc90706f15c7c7/skills/designkit-edit-tools/SKILL.md",
+      "sha256": "5f0ad23611c0688bcb003f77856d576403ddbc69028bebb32d1dcbf4ecef8252",
+      "git_blob_sha": "c8ad99f17a72a1866d90cf7d462e8f69ffc40338",
+      "matches_api_tree": true,
+      "bytes": 3578
+    },
+    {
+      "repository": "meitu/designkit-skills",
+      "path": "scripts/ecommerce_product_kit.py",
+      "commit": "1b3bea5215903f802d839c54e3fc90706f15c7c7",
+      "url": "https://github.com/meitu/designkit-skills/blob/1b3bea5215903f802d839c54e3fc90706f15c7c7/scripts/ecommerce_product_kit.py",
+      "sha256": "e8b4ce741f64dfe4f3e5dab255f00d43c4c730322104ddabd6c275186140f5f9",
+      "git_blob_sha": "a52a300d08f7e690dfcb93b1abc355c05195e165",
+      "matches_api_tree": true,
+      "bytes": 33291
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "README.md",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/README.md",
+      "sha256": "99e22838e4663aed7d1358ffe65bb3f650b71b095f15d407322774c4485f06ff",
+      "git_blob_sha": "623c78e5abc87cdaaae7d9ee333f24e22e334b66",
+      "matches_api_tree": true,
+      "bytes": 8758
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "LICENSE",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/LICENSE",
+      "sha256": "94b7b936e1206de388f3b8bb094c51efc340c682ea064594d0435b49b9aba211",
+      "git_blob_sha": "865c510a6f8d9b1a1df188c3d39f0c4d98c87132",
+      "matches_api_tree": true,
+      "bytes": 1062
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "skills/meitu-product-swap/SKILL.md",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/skills/meitu-product-swap/SKILL.md",
+      "sha256": "98c0217344b80951e29bbec2469bd0166511cd0a1c60917a3c23ea752652ab71",
+      "git_blob_sha": "ce7434c9486987e77da3f61e160f4fe196840220",
+      "matches_api_tree": true,
+      "bytes": 19961
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "skills/meitu-product-view/SKILL.md",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/skills/meitu-product-view/SKILL.md",
+      "sha256": "96ce85d65d210cb84b070ca9c80699e549a2170abe3965c4cb371b000fb94470",
+      "git_blob_sha": "89f4031d570661706176692a6d25dfcdc52c8ddc",
+      "matches_api_tree": true,
+      "bytes": 19113
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "skills/meitu-image-adapt/SKILL.md",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/skills/meitu-image-adapt/SKILL.md",
+      "sha256": "f1df026bbb2e3bf60b82a2df32a54d925c6bac2e3921f925e3aab17b2444eb3f",
+      "git_blob_sha": "4d424ee7c44faa80f899f8b0c6667ad001191364",
+      "matches_api_tree": true,
+      "bytes": 7176
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "skills/meitu-poster/SKILL.md",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/skills/meitu-poster/SKILL.md",
+      "sha256": "af81720e69e0080a9ae32dbfb456553a1da0bcfdc52327524977a39034660942",
+      "git_blob_sha": "d4a40b9499a6f0f161af39b1e4c038a67ab75ff5",
+      "matches_api_tree": true,
+      "bytes": 26611
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "skills/meitu-visual-me/SKILL.md",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/skills/meitu-visual-me/SKILL.md",
+      "sha256": "b3ce2a054b1ef0c4099dcd3b3cf14e34645f107f43ca3385434679ec4a79c750",
+      "git_blob_sha": "b548a35b5df6679a0e88a96fdf0d8ac627933e15",
+      "matches_api_tree": true,
+      "bytes": 30378
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "skills/image-text-replace/SKILL.md",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/skills/image-text-replace/SKILL.md",
+      "sha256": "dccf5fa775a038b6cb3748bef1c5e4a0f959945bd72fb018b62456aac0557b35",
+      "git_blob_sha": "2eb289542b5fa96e54696f9bd93a3780034aba85",
+      "matches_api_tree": true,
+      "bytes": 5594
+    },
+    {
+      "repository": "meitu/meitu-skills",
+      "path": "references/routing-guide.md",
+      "commit": "95e563c0a695094403ccf77eb8fe7bd8bb58939c",
+      "url": "https://github.com/meitu/meitu-skills/blob/95e563c0a695094403ccf77eb8fe7bd8bb58939c/references/routing-guide.md",
+      "sha256": "37a972fc5ead627111500e5ca6404c7e4c55f8492895ceb59ef8dd753a7802aa",
+      "git_blob_sha": "8d31660b3781ba653b3f485795208981bcb2f7d0",
+      "matches_api_tree": true,
+      "bytes": 5806
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "README.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/README.md",
+      "sha256": "7ac6cccce1e67b09048e373babcfb51a6b53f7638f1335602fedf64169078f7b",
+      "git_blob_sha": "dad621fd3ec65bc07fc8e58eb641d9f8afb35027",
+      "matches_api_tree": true,
+      "bytes": 49247
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "LICENSE",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/LICENSE",
+      "sha256": "3014abe31252b56757c23b5bb0a70ebe39802c7798d08a24454e011c811d64d1",
+      "git_blob_sha": "e3cdcd328c9f369e96d27b31590571c63692324e",
+      "matches_api_tree": true,
+      "bytes": 1062
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "docs/pipelines.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/docs/pipelines.md",
+      "sha256": "3685530da7c349a3ea5ab696fc1262694099be1ad79920f36256ba3b2685ce95",
+      "git_blob_sha": "ea422c76ce64b6974d6eeef34c5a43a07750f460",
+      "matches_api_tree": true,
+      "bytes": 2481
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "shared/references/provider-cli.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/shared/references/provider-cli.md",
+      "sha256": "e5d42139bb1e00daf4f49477de60cc9fcf625960d1d9605f4dc541df31fbc472",
+      "git_blob_sha": "2020a3842539f97f2d09ab115f92cf85909173b9",
+      "matches_api_tree": true,
+      "bytes": 4686
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "shared/references/brand-schema.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/shared/references/brand-schema.md",
+      "sha256": "27c429332d40c1ff23890b7d89fec3cf610249c4cf91b73fbb1d4811fd82db7f",
+      "git_blob_sha": "4205f34006e1fb62b2433de8ebd63514432a91a1",
+      "matches_api_tree": true,
+      "bytes": 2470
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "shared/scripts/check_listing.py",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/shared/scripts/check_listing.py",
+      "sha256": "82d0fb0a68018bfa0b76851a82f59c6a555619294870070273ef189f73c7ddbe",
+      "git_blob_sha": "2ff0423ea35a038e0820be95b7251fd0dee413d9",
+      "matches_api_tree": true,
+      "bytes": 15815
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "skills/one-shot/skill.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/skills/one-shot/skill.md",
+      "sha256": "cde7c04f7418b3fd415d8ec00d6d9ba58ee763ef70a8b5200ae7c31270203917",
+      "git_blob_sha": "2412db9c6e5f5972d8f7684ba8e4a481283c2a26",
+      "matches_api_tree": true,
+      "bytes": 11252
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "skills/batch-image/skill.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/skills/batch-image/skill.md",
+      "sha256": "2074d3cac3819d3ab854623dc7ee6547c294f9653897c150af56f9e8508b8cf9",
+      "git_blob_sha": "d2d6fb3eeb66248f53c8d74f340bc9eeba8bd92e",
+      "matches_api_tree": true,
+      "bytes": 12888
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "skills/cross-border-localize/skill.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/skills/cross-border-localize/skill.md",
+      "sha256": "35070b2a279349c86dd0da915ec96fa4ceec52c7bb2de573a94c7e1d892f02bb",
+      "git_blob_sha": "fe5f6a4cf884b1fa9285506b4131da0829e427d0",
+      "matches_api_tree": true,
+      "bytes": 5757
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "skills/detect-task/skill.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/skills/detect-task/skill.md",
+      "sha256": "4f694222ca073d15f8c4127d117b095e8b8730b2427ed97bc02d4535126bf920",
+      "git_blob_sha": "4c57c9800b2b06373154736b64682d6d0ddec8a8",
+      "matches_api_tree": true,
+      "bytes": 14301
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "skills/platform-compliance/skill.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/skills/platform-compliance/skill.md",
+      "sha256": "22370730d37b0a615691fb9d23b521d752a30861833527b9e8a9f1e6ffbacbac",
+      "git_blob_sha": "499c10472f88c01dd2c6ba43fba8d0045d0cb624",
+      "matches_api_tree": true,
+      "bytes": 7637
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "skills/item-repair/skill.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/skills/item-repair/skill.md",
+      "sha256": "1e1c1dfb2ffc56eb108d437aae27d95a6e5d35c84339bd4f456b101743f7b4ef",
+      "git_blob_sha": "497827c30f5e787dad8f9568e181f9c7f946d1d8",
+      "matches_api_tree": true,
+      "bytes": 11107
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "skills/brand-kit/skill.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/skills/brand-kit/skill.md",
+      "sha256": "43507312c987173db4aa5061124a9d088144f059518b7af0a30762acc3aaaa9c",
+      "git_blob_sha": "328571a46e4a19f677cc8f31332814a8606f5dd4",
+      "matches_api_tree": true,
+      "bytes": 5141
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "skills/ugc-testimonial/skill.md",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/skills/ugc-testimonial/skill.md",
+      "sha256": "0deba2f00204e55e39f2f315ab465bba6c6f724da36e3c79adaea13f33edf414",
+      "git_blob_sha": "59cbd5eaea5070eca4e40630da0df4a82a754174",
+      "matches_api_tree": true,
+      "bytes": 5017
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "path": "LICENSE",
+      "commit": "d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4",
+      "url": "https://github.com/nexu-io/open-design/blob/d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4/LICENSE",
+      "sha256": "9d95806a26532623360eb84bb17d298f394b55ef73fb4c0796d99b4319b2b0da",
+      "git_blob_sha": "eb79c35bd865477e525b18e56f35d56fbe0f7110",
+      "matches_api_tree": true,
+      "bytes": 11296
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "path": "skills/ecommerce-image-workflow/SKILL.md",
+      "commit": "d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4",
+      "url": "https://github.com/nexu-io/open-design/blob/d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4/skills/ecommerce-image-workflow/SKILL.md",
+      "sha256": "7b7d93ae062ee284ec2327ab21e246b1811cb17a8c29c7b37f49fcabcb5cbb5e",
+      "git_blob_sha": "eba4ef2ece8fefd38b963090fe44d53ffa32a376",
+      "matches_api_tree": true,
+      "bytes": 9685
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "path": "README.md",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/blob/2d508bd990df0397026406f210a5915b2c955469/README.md",
+      "sha256": "1dd7a85c883a30e2143e8aac95f7fc8ff0fa8521065759cc03bc5af3c8ec65ce",
+      "git_blob_sha": "2935aba93165420dab9f387f5d21d6faf13d7822",
+      "matches_api_tree": true,
+      "bytes": 5961
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "path": "LICENSE",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/blob/2d508bd990df0397026406f210a5915b2c955469/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "matches_api_tree": true,
+      "bytes": 11357
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "path": "SKILL.md",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/blob/2d508bd990df0397026406f210a5915b2c955469/SKILL.md",
+      "sha256": "7e92acc921be09ae0840fcb20cecec520e673a7c991bbe77dedbeeef83c28ab4",
+      "git_blob_sha": "542d6277633641997c307ce316b55025200a014e",
+      "matches_api_tree": true,
+      "bytes": 69725
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "path": "references/providers.md",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/blob/2d508bd990df0397026406f210a5915b2c955469/references/providers.md",
+      "sha256": "033638ae4070032878abb7d91c3cb1617053269022f21b1633181d4b85621c8e",
+      "git_blob_sha": "4dfa2aeadc503365af4199726c1d5ec876f177b9",
+      "matches_api_tree": true,
+      "bytes": 7861
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "path": "references/dynamic-prompt-architecture.md",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/blob/2d508bd990df0397026406f210a5915b2c955469/references/dynamic-prompt-architecture.md",
+      "sha256": "34306e4cb3a862c40c8b429e44d3cbbbd05715b7727bd79a8681cef62185351d",
+      "git_blob_sha": "daf9d1c2453977f29c97e378fa84d1595daf279d",
+      "matches_api_tree": true,
+      "bytes": 17553
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "path": "references/image-types.md",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/blob/2d508bd990df0397026406f210a5915b2c955469/references/image-types.md",
+      "sha256": "6155a1e263296f1946cdcf128c5864742732c8d4de3e2c038fca03116b2028ce",
+      "git_blob_sha": "81602cf9df54782770a66d491977af492796b952",
+      "matches_api_tree": true,
+      "bytes": 44584
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "path": "references/platforms.md",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/blob/2d508bd990df0397026406f210a5915b2c955469/references/platforms.md",
+      "sha256": "7d6e5a801a687ee2caec5edc33c665f5a057b3aa1bccec8b2cf7726a4edaa6da",
+      "git_blob_sha": "365541ad092829a43313ad866b222df613425945",
+      "matches_api_tree": true,
+      "bytes": 3911
+    },
+    {
+      "repository": "wzj177/ecommerce-image-suite",
+      "path": "scripts/check_providers.py",
+      "commit": "2d508bd990df0397026406f210a5915b2c955469",
+      "url": "https://github.com/wzj177/ecommerce-image-suite/blob/2d508bd990df0397026406f210a5915b2c955469/scripts/check_providers.py",
+      "sha256": "bbcc7edc089c11fd5884ee565ebed9ab118a2e9f085102482aa0d6c2f39b91dd",
+      "git_blob_sha": "b4be8ddc471b3542e3b45a3a8b0b0c62a03e9596",
+      "matches_api_tree": true,
+      "bytes": 1615
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "shared/scripts/gen.mjs",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/shared/scripts/gen.mjs",
+      "sha256": "f82e8e069e39c812cea4a9be1a6b844b118a9ba58da173b19ccf7a1ba39a4921",
+      "git_blob_sha": "f4897297f608ba0cf2b4e5b6d910eb026ab35f31",
+      "matches_api_tree": true,
+      "bytes": 9389
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "shared/scripts/run_loop.mjs",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/shared/scripts/run_loop.mjs",
+      "sha256": "405eb70922436eb0bd3f156ed52bccf9707da3ad20433ee8446619763f2fa613",
+      "git_blob_sha": "8f54afbac100807e9a9de09d746075a0f0b9669e",
+      "matches_api_tree": true,
+      "bytes": 9608
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "shared/scripts/batch.mjs",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/shared/scripts/batch.mjs",
+      "sha256": "e72cb102edff3610bf1e416759e90fcb0cba90c193eb93872f60188ef2d01966",
+      "git_blob_sha": "b503fe30c30db799079a388fe1ea5ce1580218b7",
+      "matches_api_tree": true,
+      "bytes": 10903
+    },
+    {
+      "repository": "dlazy-ai/ecommerce-skills",
+      "path": "shared/scripts/lib/providers.mjs",
+      "commit": "5873d47743ccf45f468d893e1930c03d1dc960dd",
+      "url": "https://github.com/dlazy-ai/ecommerce-skills/blob/5873d47743ccf45f468d893e1930c03d1dc960dd/shared/scripts/lib/providers.mjs",
+      "sha256": "e64ae3f399182d97f1a011d15c99f3bb02b7c2837ec67421bca1f1bea7fd30ad",
+      "git_blob_sha": "48d4ad23565e7da4ba7de22d3151c29d8e000553",
+      "matches_api_tree": true,
+      "bytes": 12055
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "path": "apps/daemon/src/media/config.ts",
+      "commit": "d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4",
+      "url": "https://github.com/nexu-io/open-design/blob/d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4/apps/daemon/src/media/config.ts",
+      "sha256": "f095f829321f3ff38645d5b5767bc4d5edf40469834dac922f454f516346b5cc",
+      "git_blob_sha": "66996a12800c3c4f8ecfeb92245c364d3c2419e3",
+      "matches_api_tree": true,
+      "bytes": 21821
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "path": "docs/external-media-orchestration.md",
+      "commit": "d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4",
+      "url": "https://github.com/nexu-io/open-design/blob/d465086b2c9264c47c5d3e1cfeb8cfb2864a41d4/docs/external-media-orchestration.md",
+      "sha256": "eb3bbf81d578f938af8d5c7e25fedf1de3a6cddf5a96c51807ecc810be636016",
+      "git_blob_sha": "7b5be6de8ee3668b47e65dbb332b6cea35cab56a",
+      "matches_api_tree": true,
+      "bytes": 6676
+    }
+  ]
+}

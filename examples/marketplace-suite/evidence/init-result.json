@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "result": {
+    "run": "/path/to/picvero/runs/marketplace-suite/20260915T022753-23b83903e2",
+    "jobs": 4,
+    "next": "由 Codex 查看原图并调用内置图片工具；本程序不生图。"
+  }
+}

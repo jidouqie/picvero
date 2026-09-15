@@ -1,0 +1,6 @@
+interface:
+  display_name: "Picvero Listing"
+  short_description: "商品上架文案：根据商品照片和参数写标题、卖点与描述，也能用已有图片排成详情页草稿。"
+  default_prompt: "请用 $picvero-listing，根据这些商品资料写标题、卖点和描述，缺少的参数单独列出来。"
+policy:
+  allow_implicit_invocation: true

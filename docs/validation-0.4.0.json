@@ -1,0 +1,27 @@
+{
+  "version": "0.4.0",
+  "checked_on": "2026-09-15",
+  "name": "Picvero",
+  "entry_skill": "picvero",
+  "entry_display_name": "Picvero",
+  "unit_tests": 42,
+  "tests_passed": true,
+  "validated_skills": [
+    "picvero",
+    "picvero-batch",
+    "picvero-brand",
+    "picvero-image",
+    "picvero-listing",
+    "picvero-localize",
+    "picvero-review",
+    "picvero-suite"
+  ],
+  "entry_has_no_suffix": true,
+  "generated_skill_names_verified": true,
+  "main_default_prompt_uses_exact_name": true,
+  "old_project_links_replaced": 8,
+  "global_installation_changed": false,
+  "default_experience": "只发清晰商品照片：自动选背景/光线/构图，生成一张图，自行核对与有限修正，直接交图；有明确要求时遵从。",
+  "image_tool_calls_this_revision": 0,
+  "behavioral_evaluation": "本轮检查命名、独立安装、说明一致性和已有测试；未进行新一轮盲测或意图准确率测量。"
+}

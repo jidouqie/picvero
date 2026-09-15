@@ -1,0 +1,81 @@
+{
+  "checked_on": "2026-09-15",
+  "method": "Chrome 页面内查看实际图片；公开图片只作研究，不在技能包中分发。",
+  "cases": [
+    {
+      "platform": "京东",
+      "product": "绿联 X524",
+      "page": "https://item.jd.com/product/GodznTIGySu_BAI5cpmBwg.html",
+      "viewed": [
+        "商品首图",
+        "功能与设备组合",
+        "功率说明"
+      ],
+      "image_urls": [
+        "https://img11.360buyimg.com/n4/s720x720_jfs/t1/473980/9/18039/56746/6a54c833F7500c75e/0083320320eac3d4.png",
+        "https://img11.360buyimg.com/n4/s720x720_jfs/t1/289283/39/22075/61475/68ca92acFe77d83b4/232a5a26b10ec268.jpg",
+        "https://img11.360buyimg.com/n4/s720x720_jfs/t1/325299/17/17598/43567/68bf8d93F5ea93a45/6ffb3b97d2fca3d2.jpg"
+      ]
+    },
+    {
+      "platform": "小米商城",
+      "product": "米家恒温电水壶2",
+      "page": "https://www.mi.com/shop/buy/detail?product_id=16307",
+      "viewed": [
+        "白底商品图",
+        "场景首屏与图标概览",
+        "模式对照",
+        "温度场景",
+        "数显局部"
+      ],
+      "image_urls": [
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6dfed82c4e4403e5349813c01a85f44a.jpg",
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9062f81b8133674b1d66fd5e16a2484a.jpg",
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7d3f4d4bebfe7236d520bd160d343eaa.jpg",
+        "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4bf81f3ef083ba86e5c0e419174ba525.jpg"
+      ]
+    },
+    {
+      "platform": "Amazon",
+      "product": "UGREEN Nexode 65W",
+      "page": "https://www.amazon.com/dp/B091BGMKYS",
+      "viewed": [
+        "独立商品图",
+        "单一利益页",
+        "多设备页",
+        "尺寸对照",
+        "场景组合",
+        "芯片示意"
+      ],
+      "image_urls": [
+        "https://m.media-amazon.com/images/I/61l+rvyzMaL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/713-1BdmPML._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61XZtdMiVsL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71TDWHYOq5L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71hZxhJ8tSL._AC_SL1500_.jpg"
+      ]
+    },
+    {
+      "platform": "Amazon",
+      "product": "Bialetti Moka Express",
+      "page": "https://www.amazon.com/dp/B0000AN3QI",
+      "viewed": [
+        "商品与包装",
+        "早餐场景",
+        "四格步骤",
+        "红底文字与商品"
+      ],
+      "image_urls": [
+        "https://m.media-amazon.com/images/I/61C95OIuATL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/613wrH5-EIL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/61btzTEO3qL._AC_SL1000_.jpg"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "page": "https://www.target.com/p/-/A-76198440",
+      "reason": "人机验证，未完成视觉查看"
+    }
+  ]
+}

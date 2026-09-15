@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "label": "货映原生链路演示 · 虚构测试商品",
+  "brand": {
+    "background": "白底或浅色桌面",
+    "tone": "干净、自然"
+  },
+  "products": [
+    {
+      "sku": "HY17",
+      "name": "HY-17 三格收纳盒（虚构样本）",
+      "references": [
+        {
+          "id": "front",
+          "role": "product",
+          "path": "synthetic-product.png"
+        }
+      ],
+      "facts": [
+        {
+          "id": "compartments",
+          "value": "三个开放分隔",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "front"
+          }
+        },
+        {
+          "id": "label",
+          "value": "正面标签为 HY-17，右侧有黄色圆点",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "front"
+          }
+        },
+        {
+          "id": "material",
+          "value": "未提供真实材质信息",
+          "status": "unknown",
+          "source": {
+            "kind": "unknown",
+            "ref": "虚构样本，没有实物材质证据"
+          }
+        }
+      ],
+      "invariants": [
+        "三个分隔",
+        "HY-17 标签",
+        "右侧黄色圆点",
+        "青绿色主体"
+      ],
+      "shots": [
+        {
+          "id": "main",
+          "kind": "packshot",
+          "goal": "白底展示虚构测试商品；检验原生改图与保存",
+          "text": [],
+          "fact_ids": [
+            "compartments",
+            "label"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        },
+        {
+          "id": "scene",
+          "kind": "scene",
+          "goal": "放在浅色桌面；除一本合上的笔记本外不增加其他道具",
+          "text": [],
+          "fact_ids": [
+            "compartments",
+            "label"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        }
+      ]
+    }
+  ]
+}

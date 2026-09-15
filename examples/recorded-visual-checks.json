@@ -1,0 +1,68 @@
+{
+  "main": {
+    "identity": {
+      "status": "pass",
+      "evidence": "对照虚构原图，三个开放分隔、长方形整体、正面标签和右侧圆点均保留；未作真实物理尺寸或精确色差测量。"
+    },
+    "text": {
+      "status": "pass",
+      "evidence": "原图与白底图的标签均可读为 HY-17，无新增宣传文字。"
+    },
+    "claims": {
+      "status": "not_applicable",
+      "evidence": "本图未加入材质、容量、尺寸、认证或性能声明。"
+    },
+    "visual": {
+      "status": "pass",
+      "evidence": "商品完整可见，白底与接触阴影连贯，主要边缘未发现明显断裂。"
+    },
+    "usage": {
+      "status": "pass",
+      "evidence": "满足本次白底展示演示的用途；未指定真实售卖平台，不代表任何平台审核通过。"
+    }
+  },
+  "scene_v1": {
+    "identity": {
+      "status": "pass",
+      "evidence": "对照原图，三个分隔、HY-17 标签和右侧黄色圆点仍可辨认；外观判断仅限当前可见结构。"
+    },
+    "text": {
+      "status": "pass",
+      "evidence": "标签可读为 HY-17，没有叠加宣传文案。"
+    },
+    "claims": {
+      "status": "not_applicable",
+      "evidence": "没有附加商品参数与功效声明。"
+    },
+    "visual": {
+      "status": "pass",
+      "evidence": "主体在桌面上的接触与光线看起来合理。"
+    },
+    "usage": {
+      "status": "fail",
+      "evidence": "画面额外加入左侧绿植、右侧笔筒和墙面挂画，超出了只保留一本笔记本的测试要求。"
+    }
+  },
+  "scene_v2": {
+    "identity": {
+      "status": "pass",
+      "evidence": "同时对照原始样本与上一版，三格结构、标签及黄色圆点保留；本演示不检验真实材质或物理色差。"
+    },
+    "text": {
+      "status": "pass",
+      "evidence": "HY-17 标签保持可读，未出现其他文字。"
+    },
+    "claims": {
+      "status": "not_applicable",
+      "evidence": "没有添加尺寸、材质、认证、销量或性能信息。"
+    },
+    "visual": {
+      "status": "pass",
+      "evidence": "产品完整可见，接触阴影与原场景相容，没有发现移除道具后的明显残留边缘。"
+    },
+    "usage": {
+      "status": "pass",
+      "evidence": "绿植、笔筒与挂画已移除；背景只保留指定笔记本。该结果仅作为虚构样本的功能演示候选。"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Picvero Image"
+  short_description: "商品单图修改：换白底、换场景、调整光线或修改局部：发商品原图，并说明要改哪里。"
+  default_prompt: "请用 $picvero-image，按我的要求修改这张商品图，保留商品结构与标识。"
+policy:
+  allow_implicit_invocation: true

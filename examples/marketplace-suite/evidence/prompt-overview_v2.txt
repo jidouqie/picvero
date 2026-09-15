@@ -1,0 +1,5 @@
+Use case: precise typography spacing correction.
+Input image 1 is the original product photograph for identity. Input image 2 is the existing ecommerce overview image to edit.
+Keep image 2's complete composition, product position and scale, graphite pedestal, pale-gray backdrop, title, two bottom capsules, orange rule, lighting and all product pixels as close to unchanged as possible.
+Correct ONLY the subtitle spacing: the text "多面壶身 · 开放式侧柄" currently nearly touches the LEFT POURING SPOUT. Reduce this supporting line's font size modestly, approximately 15-20 percent, keeping the same bold sans-serif, original baseline region and left alignment. Its right edge must end clearly BEFORE the pouring spout with comfortable visible empty space. Preserve the EXACT words and middle dot on one line. Main headline "摩卡壶" and bottom labels "银色壶身", "黑色侧柄" remain unchanged. Do not move the pot or crop it.
+Do not restage or repaint the product, do not change its water spots, scratches, worn base, facets, knob, left spout, original engraving or right top-attached/free-bottom handle. This is a small text-layout refinement only. Square 1:1.

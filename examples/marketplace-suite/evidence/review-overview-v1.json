@@ -1,0 +1,29 @@
+{
+  "candidate_sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785",
+  "reference_sha256": {
+    "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+  },
+  "reviewer": "Codex visual review",
+  "checks": {
+    "identity": {
+      "status": "unknown",
+      "evidence": "完整原图与成图已对照：上接下悬侧柄、左右部件位置及上下壶身保持；细小刻字、水渍与划痕有重构，精细一致性待核对。"
+    },
+    "text": {
+      "status": "unknown",
+      "evidence": "所有叠加标题/标签可读，商品微小刻字无法逐笔确认。"
+    },
+    "claims": {
+      "status": "pass",
+      "evidence": "只描述银色外观、多面壶身和黑色开放式侧柄，没有性能参数。"
+    },
+    "visual": {
+      "status": "fail",
+      "evidence": "副标题右缘过于靠近壶嘴，阅读避让不足；需要只缩小副标题并留出明确间距。"
+    },
+    "usage": {
+      "status": "pass",
+      "evidence": "通用附图/详情概览，不宣称平台第一主图合规。"
+    }
+  }
+}

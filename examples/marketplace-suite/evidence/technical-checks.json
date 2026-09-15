@@ -1,0 +1,350 @@
+[
+  {
+    "file": "details-v1.png",
+    "profile": {
+      "name": "0.3.0套图演示规格",
+      "scope": "本次项目要求，不是平台规范",
+      "basis": "独立方图、清晰尺寸和便于查看的文件体积",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1570915,
+      "sha256": "89f98203759aabd5f8c28542f751ce4bb8511ec2614a1edc7b4848fd6c3937ce",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1570915,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "file": "details-v2.png",
+    "profile": {
+      "name": "0.3.0套图演示规格",
+      "scope": "本次项目要求，不是平台规范",
+      "basis": "独立方图、清晰尺寸和便于查看的文件体积",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1653401,
+      "sha256": "aeb529ec57e93f20d76bed64abb8f97b169b9baef37444acb2da809f2461392c",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1653401,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "file": "handle-v1.png",
+    "profile": {
+      "name": "0.3.0套图演示规格",
+      "scope": "本次项目要求，不是平台规范",
+      "basis": "独立方图、清晰尺寸和便于查看的文件体积",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1670658,
+      "sha256": "69806e20937315f80466bead4df09649391add92b050849ee8ee1774db8ae9ee",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1670658,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "file": "overview-v1.png",
+    "profile": {
+      "name": "0.3.0套图演示规格",
+      "scope": "本次项目要求，不是平台规范",
+      "basis": "独立方图、清晰尺寸和便于查看的文件体积",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1700657,
+      "sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1700657,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "file": "overview-v2.png",
+    "profile": {
+      "name": "0.3.0套图演示规格",
+      "scope": "本次项目要求，不是平台规范",
+      "basis": "独立方图、清晰尺寸和便于查看的文件体积",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1589951,
+      "sha256": "0277f2723f3da6be47bfcd353610e5398183e95c982b4734a6fe3ebcfc0ce753",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1589951,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "file": "scene-v1.png",
+    "profile": {
+      "name": "0.3.0套图演示规格",
+      "scope": "本次项目要求，不是平台规范",
+      "basis": "独立方图、清晰尺寸和便于查看的文件体积",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1639602,
+      "sha256": "d16680cdda0ef77f2fc8afa772cc226b80134b29a4c22c98cec9b25737690adf",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1639602,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "version": "0.5.3",
+  "checked_on": "2026-09-15",
+  "change": "固化用户确认的最终回复：完成标题、可切换图廊、完整HTML主入口、实际交付摘要、下载与文案链接、必要时一句说明。附通用图廊模板。",
+  "unit_tests": 44,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "archives_valid": true,
+  "project_links_refreshed": [
+    "picvero",
+    "picvero-batch",
+    "picvero-brand",
+    "picvero-image",
+    "picvero-listing",
+    "picvero-localize",
+    "picvero-review",
+    "picvero-suite"
+  ],
+  "image_tool_calls_this_revision": 0,
+  "gallery_validation": {
+    "source": "从生成技能中的通用模板填入已完成的五张商品图",
+    "browser": "用户Chrome",
+    "first_image_loaded": true,
+    "thumbnail_updates_main_label_count": true,
+    "keyboard_home_returns_first": true,
+    "narrow_layout": {
+      "viewport": 360,
+      "component_width": 328,
+      "scroll_width": 328
+    }
+  },
+  "behavioral_evaluation": "用户已确认真实案例的最终回复；本轮验证模板交互、打包与格式，未运行独立模型评测。",
+  "global_installation_changed": false
+}

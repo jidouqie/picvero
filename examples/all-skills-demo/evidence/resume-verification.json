@@ -1,0 +1,21 @@
+{
+  "method": "在新的本地进程读取状态，定位未生成的第二商品并实际生成；不是中断工具的故障注入测试。",
+  "moka_files_unchanged": true,
+  "moka_files_before": {
+    "hero-v1.png": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+    "packshot-v1.png": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+    "feature_en-v1.png": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+    "feature_cn-v1.png": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2"
+  },
+  "moka_files_after": {
+    "hero-v1.png": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+    "packshot-v1.png": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+    "feature_en-v1.png": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+    "feature_cn-v1.png": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2"
+  },
+  "moka_render_count": 4,
+  "scoop_render_count": 2,
+  "generated_slots": 5,
+  "native_calls": 6,
+  "pending_quality": "5 个最新图位均保留精细外观待核对；未标记卖家选用。"
+}

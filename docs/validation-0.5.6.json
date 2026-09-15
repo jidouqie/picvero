@@ -1,0 +1,22 @@
+{
+  "version": "0.5.6",
+  "checked_on": "2026-09-15",
+  "change": "自动按款识别归类，发几款就完整做几套；同款多照合并参考，不同款全部各做五图、文案与HTML，附整批汇总和ZIP；移除先做代表商品的默认规则。",
+  "unit_tests": 44,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "archives_valid": true,
+  "project_links_refreshed": [
+    "picvero",
+    "picvero-batch",
+    "picvero-brand",
+    "picvero-image",
+    "picvero-listing",
+    "picvero-localize",
+    "picvero-review",
+    "picvero-suite"
+  ],
+  "image_tool_calls_this_revision": 0,
+  "scope": "本轮更新技能指令、入口简介与交付规则；现有运行器和包测试通过，未进行多商品自动归类的实际生图验证。",
+  "global_installation_changed": false
+}

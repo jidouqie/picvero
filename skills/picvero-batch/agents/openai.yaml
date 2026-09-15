@@ -1,0 +1,6 @@
+interface:
+  display_name: "Picvero Batch"
+  short_description: "批量商品做图：自动归类商品照片，为全部商品逐款制作套图，保存进度并支持中断续做。"
+  default_prompt: "请用 $picvero-batch，自动归类这些商品照片，为每款完成整套图片，保留已完成的结果。"
+policy:
+  allow_implicit_invocation: true

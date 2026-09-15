@@ -1,0 +1,14 @@
+{
+  "version": "0.3.2",
+  "checked_on": "2026-09-15",
+  "unit_tests": 42,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "change_scope": "八个能力的显示名称、用途简介与默认请求；主技能用途说明与无素材时的开场介绍；README 与使用说明。",
+  "entry_display_name": "货映 · 电商商品图制作",
+  "entry_command_unchanged": "huoying-studio",
+  "entry_empty_input_behavior": "介绍能做什么、发什么、得到什么；已有素材或任务时直接执行",
+  "global_installation_changed": false,
+  "new_image_generations": 0,
+  "usability_validation": "完成文本审阅和包内元数据检查，未做真实新用户可用性研究"
+}

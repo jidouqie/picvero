@@ -1,0 +1,22 @@
+{
+  "version": "0.5.5",
+  "checked_on": "2026-09-15",
+  "change": "用户确认将黑鞋多角度案例的完成度作为后续各类商品的默认执行标准；不设品类白名单，按本次主体独立策划，保持五图文案图廊HTML及每图一次。",
+  "unit_tests": 44,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "archives_valid": true,
+  "project_links_refreshed": [
+    "picvero-suite",
+    "picvero-batch",
+    "picvero",
+    "picvero-brand",
+    "picvero-image",
+    "picvero-listing",
+    "picvero-review",
+    "picvero-localize"
+  ],
+  "image_tool_calls_this_revision": 0,
+  "scope": "本轮仅固化通用设计与交付标准，无新生图和跨品类实测；不是任意商品效果或精细保真的保证。",
+  "global_installation_changed": false
+}

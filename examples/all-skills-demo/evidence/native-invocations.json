@@ -1,0 +1,118 @@
+[
+  {
+    "sku": "MOKA001",
+    "shot": "packshot",
+    "version": 1,
+    "tool": "native image_gen",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-1678122f-f969-4980-9311-9cb2eef037ce.png",
+    "output_sha256": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+    "actual_prompt_file": "prompt-packshot.txt",
+    "inputs_in_order": [
+      {
+        "file": "source/moka.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      }
+    ]
+  },
+  {
+    "sku": "MOKA001",
+    "shot": "hero",
+    "version": 1,
+    "tool": "native image_gen",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-f099bb6d-223f-41a9-987f-30a6b2b2e492.png",
+    "output_sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+    "actual_prompt_file": "prompt-hero.txt",
+    "inputs_in_order": [
+      {
+        "file": "source/moka.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      }
+    ]
+  },
+  {
+    "sku": "MOKA001",
+    "shot": "feature_cn",
+    "version": 1,
+    "tool": "native image_gen",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-2517a8c3-082e-4b62-a93c-246b5b7a7bfa.png",
+    "output_sha256": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2",
+    "actual_prompt_file": "prompt-feature_cn.txt",
+    "inputs_in_order": [
+      {
+        "file": "source/moka.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      },
+      {
+        "file": "images/02-摩卡壶主视觉.png",
+        "role": "style",
+        "sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86"
+      }
+    ]
+  },
+  {
+    "sku": "MOKA001",
+    "shot": "feature_en",
+    "version": 1,
+    "tool": "native image_gen",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-05637f12-b793-413c-b7a9-0f3dfd757902.png",
+    "output_sha256": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+    "actual_prompt_file": "prompt-feature_en.txt",
+    "inputs_in_order": [
+      {
+        "file": "images/03-摩卡壶特点中文.png",
+        "role": "edit_target",
+        "sha256": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2"
+      },
+      {
+        "file": "source/moka.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      }
+    ]
+  },
+  {
+    "sku": "SCOOP001",
+    "shot": "hero",
+    "version": 1,
+    "tool": "native image_gen",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-f8bbf7a4-a189-41fc-be82-f3b877df2179.png",
+    "output_sha256": "3d529d24fbf72d36fc89c104aa9c8f03e986597265a9380afa1f6c523b4f3124",
+    "actual_prompt_file": "prompt-scoop_hero.txt",
+    "inputs_in_order": [
+      {
+        "file": "source/scoop.jpg",
+        "role": "product",
+        "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+      },
+      {
+        "file": "images/02-摩卡壶主视觉.png",
+        "role": "style",
+        "sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86"
+      }
+    ]
+  },
+  {
+    "sku": "SCOOP001",
+    "shot": "hero",
+    "version": 2,
+    "tool": "native image_gen",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-7c230522-4883-42b9-b945-ef8ad84ab0fe.png",
+    "output_sha256": "6057e92da4692ee9933473aebd769bfac8c3bf292b86b10b7feb6d8165b41231",
+    "actual_prompt_file": "prompt-scoop_hero_v2.txt",
+    "inputs_in_order": [
+      {
+        "file": "source/scoop.jpg",
+        "role": "product",
+        "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+      },
+      {
+        "file": "images/05-水勺初版-有问题.png",
+        "role": "edit_target",
+        "sha256": "3d529d24fbf72d36fc89c104aa9c8f03e986597265a9380afa1f6c523b4f3124"
+      }
+    ]
+  }
+]

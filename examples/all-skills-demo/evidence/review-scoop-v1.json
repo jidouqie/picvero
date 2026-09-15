@@ -1,0 +1,29 @@
+{
+  "candidate_sha256": "3d529d24fbf72d36fc89c104aa9c8f03e986597265a9380afa1f6c523b4f3124",
+  "reference_sha256": {
+    "original": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+  },
+  "reviewer": "Codex visual review",
+  "checks": {
+    "identity": {
+      "status": "fail",
+      "evidence": "已对照原始水勺照片与完整成图：右侧开放式长柄、左嘴和主要绿白位置仍在；但原图浅表云状/斜向纹路在成图中变成明显立体分瓣沟槽，左侧导流口也被拉长。需要针对表面与壶嘴重做。"
+    },
+    "text": {
+      "status": "pass",
+      "evidence": "给日常，一点绿意可读，无多余参数和替换品牌。"
+    },
+    "claims": {
+      "status": "pass",
+      "evidence": "未出现容量、成分、功效和认证文案；没有新增出售配件。"
+    },
+    "visual": {
+      "status": "pass",
+      "evidence": "暖白与咖啡棕背景协调，绿色成为主体焦点；标题清晰，侧光与接触阴影自然，整体延续本批次风格。"
+    },
+    "usage": {
+      "status": "pass",
+      "evidence": "用于通用场景主视觉演示；不代表平台规则审核。"
+    }
+  }
+}

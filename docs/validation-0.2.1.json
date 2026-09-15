@@ -1,0 +1,18 @@
+{
+  "version": "0.2.1",
+  "checked_on": "2026-09-15",
+  "unit_tests": 41,
+  "passed": true,
+  "validated_skills": [
+    "huoying-batch",
+    "huoying-brand",
+    "huoying-image",
+    "huoying-listing",
+    "huoying-localize",
+    "huoying-review",
+    "huoying-studio",
+    "huoying-suite"
+  ],
+  "image_outputs": 2,
+  "visual_review_basis": "原始图与用户认可外观基线；本轮重点核对设计层级与布局"
+}

@@ -1,0 +1,29 @@
+{
+  "candidate_sha256": "89f98203759aabd5f8c28542f751ce4bb8511ec2614a1edc7b4848fd6c3937ce",
+  "reference_sha256": {
+    "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+  },
+  "reviewer": "Codex visual review",
+  "checks": {
+    "identity": {
+      "status": "fail",
+      "evidence": "原始照片与成图实际对照：左侧壶嘴局部仍能对应；右侧壶盖图变成更高俯视角，补出了大面积原照未显示清楚的盖面，顶钮形态也变化，不能当作原图局部放大。"
+    },
+    "text": {
+      "status": "pass",
+      "evidence": "看清可见细节、左侧壶嘴、棱面壶盖、黑色顶钮均可读且与计划一致。"
+    },
+    "claims": {
+      "status": "fail",
+      "evidence": "右侧新角度被呈现为真实细节，会让买家把推测盖面当作实拍依据，需要恢复原照同一视角。"
+    },
+    "visual": {
+      "status": "pass",
+      "evidence": "两个大图区域、底部标签和无衬线标题形成清楚层级，版式本身完整。"
+    },
+    "usage": {
+      "status": "pass",
+      "evidence": "定位通用附图/详情样例，未宣称符合平台第一主图规范。"
+    }
+  }
+}

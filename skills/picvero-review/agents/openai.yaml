@@ -1,0 +1,6 @@
+interface:
+  display_name: "Picvero Review"
+  short_description: "商品图片检查：对照原图检查成图：商品有没有变形、文字有没有错、部件和细节有没有改坏。"
+  default_prompt: "请用 $picvero-review，对照原图检查这些成图，指出变形、错字和被改坏的细节。"
+policy:
+  allow_implicit_invocation: true

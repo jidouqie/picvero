@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "label": "0.3.0 实际电商套图方法实测",
+  "brand": {
+    "id": "marketplace-layout-demo",
+    "version": 1,
+    "status": "proposed_for_current_task",
+    "scope": "本轮参考实际电商套图的设计样例；不覆盖用户长期品牌",
+    "palette": {
+      "main": "中性浅灰/暖白",
+      "dark": "石墨灰",
+      "accent": "少量陶土橙"
+    },
+    "typography": "清晰中文无衬线，主要信息大而简短，辅助文字明显更小",
+    "composition": "全貌概览、单特征局部对应、细节组合、实际场景分别表达；整套复用标题对齐与色彩",
+    "reference_method": [
+      "小米详情的产品+短标题和局部模块",
+      "UGREEN 单信息与对照结构",
+      "Bialetti 可识别的厨房/咖啡场景"
+    ],
+    "invariants": [
+      "保持原照视角、上下壶体比例、把手开放式连接和壶嘴朝向",
+      "壶身水渍、划痕、底沿旧痕和细小刻字保留；不能当作新壶抛光",
+      "不推断照片看不到的结构或参数"
+    ]
+  },
+  "products": [
+    {
+      "sku": "MOKA001",
+      "name": "银色多面壶身摩卡壶",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "source_path": "/path/to/picvero/examples/marketplace-suite/source.jpg",
+          "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6",
+          "image_info": {
+            "format": "JPEG",
+            "width": 2048,
+            "height": 1682,
+            "bytes": 510611,
+            "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "snapshot": "inputs/MOKA001/original.jpg"
+        }
+      ],
+      "facts": [
+        {
+          "id": "facets",
+          "value": "银色多面壶身，上下两段与中间圆环",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "handle",
+          "value": "黑色单侧把手，位于右侧，上端连接、下端悬空",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "lid_spout",
+          "value": "黑色顶钮、带棱面的壶盖、左侧短壶嘴",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "wear",
+          "value": "壶身可见水渍、划痕和底沿褐色旧痕",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "specs",
+          "value": "品牌型号、容量、尺寸、成分、炉具兼容性、包装包含物未确认",
+          "status": "unknown",
+          "source": {
+            "kind": "unknown",
+            "ref": "卖家未提供资料"
+          }
+        }
+      ],
+      "invariants": [
+        "保持原照视角、上下壶体比例、把手开放式连接和壶嘴朝向",
+        "壶身水渍、划痕、底沿旧痕和细小刻字保留；不能当作新壶抛光",
+        "不推断照片看不到的结构或参数"
+      ],
+      "shots": [
+        {
+          "id": "overview",
+          "kind": "feature",
+          "goal": "商品概览：清楚识别名称、完整外形和两项结构，采用大商品加简短层级文案",
+          "text": [
+            "摩卡壶",
+            "多面壶身 · 开放式侧柄",
+            "银色壶身",
+            "黑色侧柄"
+          ],
+          "fact_ids": [
+            "facets",
+            "handle",
+            "wear"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        },
+        {
+          "id": "handle",
+          "kind": "feature",
+          "goal": "一图一特征：放大原图可见的侧柄，以全貌定位与局部对应解释连接方式",
+          "text": [
+            "开放式侧柄",
+            "上端连接 · 下端悬空",
+            "结构细节"
+          ],
+          "fact_ids": [
+            "handle",
+            "wear"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        },
+        {
+          "id": "details",
+          "kind": "detail",
+          "goal": "可见细节：两个实物区域呈现壶嘴与壶盖，不生成不可见内部和微纹理",
+          "text": [
+            "看清可见细节",
+            "左侧壶嘴",
+            "棱面壶盖",
+            "黑色顶钮"
+          ],
+          "fact_ids": [
+            "lid_spout",
+            "wear"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        },
+        {
+          "id": "scene",
+          "kind": "scene",
+          "goal": "咖啡角情境：保留原物，真实台面搭配一只杯碟；不演示无法确认的工作步骤",
+          "text": [
+            "日常咖啡角",
+            "场景搭配示意",
+            "杯碟与托盘为布景"
+          ],
+          "fact_ids": [
+            "facets",
+            "handle",
+            "lid_spout",
+            "wear"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        }
+      ]
+    }
+  ]
+}

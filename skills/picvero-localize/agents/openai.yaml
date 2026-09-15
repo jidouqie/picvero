@@ -1,0 +1,6 @@
+interface:
+  display_name: "Picvero Localize"
+  short_description: "商品图片翻译：把商品图中的说明改成英文或其他语言，调整排版并核对文字、数字和单位。"
+  default_prompt: "请用 $picvero-localize，把这张商品图的说明翻译成我指定的语言，保留商品与原有标识。"
+policy:
+  allow_implicit_invocation: true

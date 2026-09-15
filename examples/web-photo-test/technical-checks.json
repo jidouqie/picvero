@@ -1,0 +1,230 @@
+{
+  "main": {
+    "profile": {
+      "name": "本次网页照片测试",
+      "scope": "测试规格，非平台规范",
+      "basis": "本次测试的方形输出与基本清晰度",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "min_width": 800,
+        "formats": [
+          "PNG"
+        ],
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1241149,
+      "sha256": "2f27c2e8dcdb565100f361a588f6ac7a9e4dac9fcbc646e1196d77510e8ec2bd",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 800
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1241149,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  "scene": {
+    "profile": {
+      "name": "本次网页照片测试",
+      "scope": "测试规格，非平台规范",
+      "basis": "本次测试的方形输出与基本清晰度",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "min_width": 800,
+        "formats": [
+          "PNG"
+        ],
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1995552,
+      "sha256": "8314cdcb67e76fe068fdf180aeb1c8d9bca83aa26418206137bc2334b7f18708",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 800
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1995552,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  "feature_cn": {
+    "profile": {
+      "name": "本次网页照片测试",
+      "scope": "测试规格，非平台规范",
+      "basis": "本次测试的方形输出与基本清晰度",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "min_width": 800,
+        "formats": [
+          "PNG"
+        ],
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1416409,
+      "sha256": "97e1909182bfe677a9d371f88f7f66e2ede5c4b0dcab3e20b39c15aab7db4fe0",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 800
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1416409,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  "feature_en": {
+    "profile": {
+      "name": "本次网页照片测试",
+      "scope": "测试规格，非平台规范",
+      "basis": "本次测试的方形输出与基本清晰度",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "min_width": 800,
+        "formats": [
+          "PNG"
+        ],
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1412321,
+      "sha256": "225dcef67e6e9efa8e02907fe226102c829bf5060c5bf812606ee51479ee4eb5",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 800
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG"
+        ]
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1412321,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  }
+}

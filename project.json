@@ -1,0 +1,8 @@
+{
+  "name": "Picvero",
+  "prefix": "picvero",
+  "version": "0.5.6",
+  "name_status": "confirmed",
+  "description": "发商品照片，直接制作电商套图、上架文案与详情页草稿",
+  "entrypoint": "main"
+}

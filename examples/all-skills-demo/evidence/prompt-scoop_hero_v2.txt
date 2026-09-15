@@ -1,0 +1,8 @@
+Use case: precise-object-edit, corrective ecommerce revision.
+Input image 1: real product photograph, sole ground truth for the scoop's geometry and surface.
+Input image 2: current campaign image to revise. Keep its entire attractive warm cream/coffee brown architectural background, light direction, Chinese headline "给日常，一点绿意", type layout, object position and overall framing.
+Fix ONLY the inaccurate product surface and pouring lip in image 2 by referring closely to image 1:
+1. The original scoop has a largely SMOOTH thin milky translucent white wall with subdued cloudy white streaking. The sweeping curves visible in the source are faint surface/clouding traces, NOT raised ribs or carved channels. Remove the strong embossed diagonal ribs, deep curved grooves, petal-like panels and thick marble appearance that were mistakenly added in image 2. Its surface must be quietly smooth with the very light cloudy streaks of image 1, neither ceramic nor faceted.
+2. Match the compact, shallow rounded LEFT pouring lip of image 1; shorten the overextended duckbill-like spout in image 2.
+3. Keep the original green patch shapes and positions, especially main irregular front-left green patch, green stripe on inside rear wall and green right/base accents. Keep the thick rounded milky rim and the right green long flat handle attached ONLY at the TOP, free at the bottom. Do not add another handle attachment.
+Preserve the original image 1 proportions and material appearance. Do not invent product engraving or labels. Keep the photographed product's imperfections, don't beautify it by changing construction. Make this a targeted correction; leave the rest of the elegant scene and all text unchanged. Square 1:1 independent image.

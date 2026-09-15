@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-15",
+  "skills_demonstrated": 8,
+  "products": 2,
+  "latest_shots": 5,
+  "native_image_calls": 6,
+  "targeted_corrections": 1,
+  "latest_review_status": "inconclusive: 细纹理/刻字待核对",
+  "user_selection": "not_selected",
+  "link_checks": {
+    "html": 3,
+    "markdown": 3,
+    "links": 92,
+    "images": 23
+  },
+  "errors": [],
+  "prior_moka_files_unchanged": true,
+  "all_six_images_project_spec": "covered_checks_pass",
+  "browser_render_review": "not_performed_due_to_prior_local_page_access_restriction",
+  "visual_images": "原图与全部六次工具生成结果已实际查看；无像素级保真结论",
+  "code_changes": "仅新增演示资产和文档，没有修改技能或运行器"
+}

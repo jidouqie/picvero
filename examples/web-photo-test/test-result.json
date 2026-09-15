@@ -1,0 +1,60 @@
+{
+  "version": "0.2.0",
+  "checked_on": "2026-09-15",
+  "source": "https://commons.wikimedia.org/wiki/File:Mug_image.jpg",
+  "source_type": "public photograph, not generated fixture",
+  "image_calls": 4,
+  "outputs": 4,
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "technical_checks": "4/4 covered checks pass",
+  "text_checks": "Chinese and English labels visually checked",
+  "identity_verdict": "4/4 inconclusive: fine texture reconstruction cannot be verified from the source",
+  "delivery_mode": "drafts with visible review status",
+  "user_selection": "none",
+  "jobs": [
+    {
+      "sku": "WEB001",
+      "shot": "main",
+      "status": "inconclusive",
+      "next_action": "needs_input",
+      "selected_version": null,
+      "renders": 1,
+      "attempts": 1,
+      "max_renders": 3
+    },
+    {
+      "sku": "WEB001",
+      "shot": "scene",
+      "status": "inconclusive",
+      "next_action": "needs_input",
+      "selected_version": null,
+      "renders": 1,
+      "attempts": 1,
+      "max_renders": 3
+    },
+    {
+      "sku": "WEB001",
+      "shot": "feature_cn",
+      "status": "inconclusive",
+      "next_action": "needs_input",
+      "selected_version": null,
+      "renders": 1,
+      "attempts": 1,
+      "max_renders": 3
+    },
+    {
+      "sku": "WEB001",
+      "shot": "feature_en",
+      "status": "inconclusive",
+      "next_action": "needs_input",
+      "selected_version": null,
+      "renders": 1,
+      "attempts": 1,
+      "max_renders": 3
+    }
+  ],
+  "inconclusive_default_export_blocked": true
+}

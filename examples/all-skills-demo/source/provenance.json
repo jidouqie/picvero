@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-09-15",
+  "moka": {
+    "file": "moka.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Macchinetta.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Macchinetta.jpg",
+    "author": "Alexandre Albore",
+    "date": "2006-06-04",
+    "license": "Public domain (PD-self)",
+    "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+  },
+  "scoop": {
+    "file": "scoop.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mug_image.jpg",
+    "author": "Mohanraj55",
+    "license": "CC0 1.0",
+    "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+  },
+  "purpose": "真实网络照片用于技能效果演示；不是卖家提供的商品或销售效果证明；后续图片为 AI 编辑结果。"
+}

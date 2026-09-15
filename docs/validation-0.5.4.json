@@ -1,0 +1,67 @@
+{
+  "version": "0.5.4",
+  "checked_on": "2026-09-15",
+  "change": "默认多角度、多样式，按镜头结合多张同商品参考；单图允许 AI 推演新角度并标注，保留每图一次与既定交付格式。",
+  "unit_tests": 44,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "archives_valid": true,
+  "project_links_refreshed": 8,
+  "image_tool_calls_this_revision": 5,
+  "image_generation_retries": 0,
+  "actual_demo": {
+    "input_photos": 1,
+    "images": [
+      {
+        "file": "images/01-hero.png",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "file": "images/02-clean.png",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "file": "images/03-top.png",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "file": "images/04-scene.png",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "file": "images/05-detail.png",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "run": "/path/to/picvero/runs/black-lace-shoes-multiview/20260915T083130-190f9a4c31",
+    "selection": "not_selected",
+    "identity": "unknown",
+    "distinct_presentations": [
+      "低机位悬浮广告",
+      "侧向棚拍",
+      "俯视图形",
+      "行走穿搭",
+      "局部近景"
+    ],
+    "multi_reference_live_tested": false
+  },
+  "browser_validation": {
+    "browser": "用户 Chrome",
+    "html_image_enlargement": true,
+    "original_download_link": true,
+    "html_mobile_width": 390,
+    "html_scroll_width": 390,
+    "gallery_thumb_selects_image_title_count": true,
+    "gallery_mobile_width": 360,
+    "gallery_component_width": 328,
+    "gallery_scroll_width": 328,
+    "gallery_bytes": 441395
+  },
+  "global_installation_changed": false,
+  "behavioral_evaluation": "当前会话用真实用户低清照片重做五图并实际查看，未运行独立模型评测；推演视角与纹理未获实物验证。"
+}

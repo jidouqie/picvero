@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "label": "全部八项技能实演：摩卡壶与水勺",
+  "products": [
+    {
+      "sku": "MOKA001",
+      "name": "银色多面壶身摩卡壶",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "path": "/path/to/picvero/examples/all-skills-demo/source/moka.jpg"
+        }
+      ],
+      "facts": [
+        {
+          "id": "facets",
+          "value": "银色多面壶身，上下两段与中间圆环",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "handle",
+          "value": "黑色单侧把手，位于右侧，上端连接、下端悬空",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "lid_spout",
+          "value": "黑色顶钮、带棱面的壶盖、左侧短壶嘴",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "wear",
+          "value": "壶身可见水渍、划痕和底沿褐色旧痕",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "specs",
+          "value": "品牌型号、容量、尺寸、成分、炉具兼容性、包装包含物未确认",
+          "status": "unknown",
+          "source": {
+            "kind": "unknown",
+            "ref": "卖家未提供资料"
+          }
+        }
+      ],
+      "invariants": [
+        "保持原照视角、上下壶体比例、把手开放式连接和壶嘴朝向",
+        "壶身水渍、划痕、底沿旧痕和细小刻字保留；不能当作新壶抛光",
+        "不推断照片看不到的结构或参数"
+      ],
+      "shots": [
+        {
+          "id": "packshot",
+          "kind": "packshot",
+          "goal": "一张清晰的白底商品展示候选，无叠加文字",
+          "text": [],
+          "fact_ids": [
+            "facets",
+            "handle",
+            "lid_spout",
+            "wear"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        },
+        {
+          "id": "hero",
+          "kind": "scene",
+          "goal": "咖啡棕与暖白的精致咖啡角主视觉，商品占画面约一半，保留旧痕",
+          "text": [
+            "把日常，慢慢煮好",
+            "咖啡时光"
+          ],
+          "fact_ids": [
+            "facets",
+            "handle",
+            "lid_spout",
+            "wear"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        },
+        {
+          "id": "feature_cn",
+          "kind": "feature",
+          "goal": "同一视觉规范的中文特点页，用版式突出可见壶身和侧柄",
+          "text": [
+            "形有棱角，日常有温度",
+            "多面壶身",
+            "开放式侧柄"
+          ],
+          "fact_ids": [
+            "facets",
+            "handle"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        },
+        {
+          "id": "feature_en",
+          "kind": "localized",
+          "goal": "把特点页中文替换成自然英文，商品刻字不翻译",
+          "text": [
+            "Defined lines.",
+            "Warm moments.",
+            "Faceted body",
+            "Open-ended handle"
+          ],
+          "fact_ids": [
+            "facets",
+            "handle"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        }
+      ]
+    },
+    {
+      "sku": "SCOOP001",
+      "name": "绿白长柄水勺",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "path": "/path/to/picvero/examples/all-skills-demo/source/scoop.jpg"
+        }
+      ],
+      "facts": [
+        {
+          "id": "color",
+          "value": "半透明乳白主体与不规则绿色色块",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "handle",
+          "value": "绿色长柄在右侧，上端连接而下端悬空",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "spout",
+          "value": "左侧小导流口与较厚口沿",
+          "status": "observed",
+          "source": {
+            "kind": "image",
+            "ref": "original"
+          }
+        },
+        {
+          "id": "specs",
+          "value": "容量、实际材质与使用认证未确认",
+          "status": "unknown",
+          "source": {
+            "kind": "unknown",
+            "ref": "卖家未提供资料"
+          }
+        }
+      ],
+      "invariants": [
+        "保持绿白色块主要位置、右側开放式长柄和左侧小导流口",
+        "不复制摩卡壶结构、刻字和事实",
+        "不将表面变成高光陶瓷"
+      ],
+      "shots": [
+        {
+          "id": "hero",
+          "kind": "scene",
+          "goal": "续做第二商品：复用暖白、咖啡棕和侧光，以商品绿色为点缀，独立生成",
+          "text": [
+            "给日常，一点绿意"
+          ],
+          "fact_ids": [
+            "color",
+            "handle",
+            "spout"
+          ],
+          "aspect": "1:1",
+          "max_renders": 3
+        }
+      ]
+    }
+  ],
+  "brand": {
+    "id": "demo-homewares-warm-01",
+    "version": 1,
+    "status": "proposed_for_demo",
+    "scope": "仅限本次两件商品的能力演示；不代表用户长期店铺偏好",
+    "basis": "用户要求展示全部技能，前次要求更精致；本轮由 Codex 提出布景。",
+    "palette": {
+      "background": "浓咖啡棕与暖白",
+      "accent": "少量陶土色",
+      "product": "保持原商品本色"
+    },
+    "lighting": "左上方有方向的暖中性窗光；保留银色与绿白原色；明确接触阴影",
+    "composition": "大型商品主体、独立文字区、少量台面与建筑空间层次；不放无关商品",
+    "typography": "中文精致宋体标题配清楚的黑体辅助文字；英文自然编辑式衬线标题",
+    "tone": "精致、安静、具体；只写有依据的设计特征",
+    "avoid": [
+      "把银色金属猜成不锈钢或铝",
+      "抹掉旧痕假装全新",
+      "编品牌和容量",
+      "道具被误认作套装",
+      "每张机械复制同一构图"
+    ]
+  }
+}

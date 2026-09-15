@@ -1,0 +1,6 @@
+interface:
+  display_name: "Picvero"
+  short_description: "电商套图与文案：自动按款归类，同款照片合并，每款制作五张套图、完整文案与 HTML。"
+  default_prompt: "请用 $picvero，自动识别归类我发的商品照片，为每款完整制作电商套图、上架文案与 HTML 展示页。"
+policy:
+  allow_implicit_invocation: true

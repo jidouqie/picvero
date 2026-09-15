@@ -1,0 +1,24 @@
+{
+  "version": "0.5.2",
+  "checked_on": "2026-09-15",
+  "change": "英文显示名称使用 Picvero Image / Picvero Suite 等格式；增加与 RedBeacon 同类的 frontmatter 中文 short-description，UI 简介也以用途开头；重新挂接项目内八个技能。",
+  "unit_tests": 44,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "archives_valid": true,
+  "project_links_refreshed": [
+    "picvero",
+    "picvero-batch",
+    "picvero-brand",
+    "picvero-image",
+    "picvero-listing",
+    "picvero-localize",
+    "picvero-review",
+    "picvero-suite"
+  ],
+  "image_tool_calls_this_revision": 0,
+  "ui_verified": false,
+  "ui_verification_blocker": "Computer Use 拒绝操作 com.openai.codex；当前截图为旧版，未把磁盘及链接校验当作菜单已刷新。",
+  "refresh_guidance_source": "https://learn.chatgpt.com/docs/build-skills",
+  "global_installation_changed": false
+}

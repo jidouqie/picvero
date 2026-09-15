@@ -1,0 +1,368 @@
+[
+  {
+    "sku": "MOKA001",
+    "image": "packshot-v1",
+    "profile": {
+      "name": "全技能演示图片规格",
+      "scope": "本次演示项目要求；不是平台规范",
+      "basis": "演示选用独立方图，便于原图对照与展示",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG",
+          "JPEG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1405351,
+      "sha256": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG",
+          "JPEG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1405351,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "sku": "MOKA001",
+    "image": "hero-v1",
+    "profile": {
+      "name": "全技能演示图片规格",
+      "scope": "本次演示项目要求；不是平台规范",
+      "basis": "演示选用独立方图，便于原图对照与展示",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG",
+          "JPEG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2072868,
+      "sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG",
+          "JPEG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 2072868,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "sku": "MOKA001",
+    "image": "feature_cn-v1",
+    "profile": {
+      "name": "全技能演示图片规格",
+      "scope": "本次演示项目要求；不是平台规范",
+      "basis": "演示选用独立方图，便于原图对照与展示",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG",
+          "JPEG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2082965,
+      "sha256": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG",
+          "JPEG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 2082965,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "sku": "MOKA001",
+    "image": "feature_en-v1",
+    "profile": {
+      "name": "全技能演示图片规格",
+      "scope": "本次演示项目要求；不是平台规范",
+      "basis": "演示选用独立方图，便于原图对照与展示",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG",
+          "JPEG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1832247,
+      "sha256": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG",
+          "JPEG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1832247,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "sku": "SCOOP001",
+    "image": "hero-v1",
+    "profile": {
+      "name": "全技能演示图片规格",
+      "scope": "本次演示项目要求；不是平台规范",
+      "basis": "演示选用独立方图，便于原图对照与展示",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG",
+          "JPEG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1970942,
+      "sha256": "3d529d24fbf72d36fc89c104aa9c8f03e986597265a9380afa1f6c523b4f3124",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG",
+          "JPEG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1970942,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  },
+  {
+    "sku": "SCOOP001",
+    "image": "hero-v2",
+    "profile": {
+      "name": "全技能演示图片规格",
+      "scope": "本次演示项目要求；不是平台规范",
+      "basis": "演示选用独立方图，便于原图对照与展示",
+      "checked_at": "2026-09-15",
+      "rules": {
+        "aspect": "1:1",
+        "formats": [
+          "PNG",
+          "JPEG"
+        ],
+        "min_width": 1000,
+        "max_bytes": 10000000
+      }
+    },
+    "metadata": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1926353,
+      "sha256": "6057e92da4692ee9933473aebd769bfac8c3bf292b86b10b7feb6d8165b41231",
+      "has_alpha_channel": false,
+      "decode_check": "not_checked",
+      "transparency_check": "not_checked",
+      "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+    },
+    "checks": [
+      {
+        "check": "aspect",
+        "status": "pass",
+        "actual": "1254:1254",
+        "expected": "1:1"
+      },
+      {
+        "check": "formats",
+        "status": "pass",
+        "actual": "PNG",
+        "expected": [
+          "PNG",
+          "JPEG"
+        ]
+      },
+      {
+        "check": "min_width",
+        "status": "pass",
+        "actual": 1254,
+        "expected": 1000
+      },
+      {
+        "check": "max_bytes",
+        "status": "pass",
+        "actual": 1926353,
+        "expected": 10000000
+      }
+    ],
+    "verdict": "covered_checks_pass",
+    "scope": "仅报告配置内的可测量项目；不等于平台审核通过。"
+  }
+]

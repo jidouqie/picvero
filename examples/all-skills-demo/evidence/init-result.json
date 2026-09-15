@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "result": {
+    "run": "/path/to/picvero/runs/all-skills-demo/20260915T014618-683c6291aa",
+    "jobs": 5,
+    "next": "由 Codex 查看原图并调用内置图片工具；本程序不生图。"
+  }
+}

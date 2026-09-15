@@ -1,0 +1,15 @@
+{
+  "title": "Mug image.jpg",
+  "author": "Mohanraj55",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Mug_image.jpg",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Mug_image.jpg",
+  "photo_date_as_listed": "2024-09-25",
+  "uploaded_at_as_listed": "2024-10-28",
+  "license": "CC0 1.0 Universal Public Domain Dedication",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "checked_on": "2026-09-15",
+  "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f",
+  "bytes": 117361,
+  "dimensions": [960, 1280],
+  "notes": "本次从公开网页取得的照片。之后的测试成图由 Codex 内置图片工具编辑，不能视为新的真实拍摄证据。"
+}

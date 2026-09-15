@@ -1,0 +1,6 @@
+interface:
+  display_name: "Picvero Suite"
+  short_description: "商品套图制作：结合多张实拍安排不同角度与样式，单图可推演新视角，默认五个图位各生成一次。"
+  default_prompt: "请用 $picvero-suite，用这些商品实拍做一套主图、卖点图和场景图。"
+policy:
+  allow_implicit_invocation: true

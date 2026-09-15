@@ -1,0 +1,29 @@
+{
+  "candidate_sha256": "6057e92da4692ee9933473aebd769bfac8c3bf292b86b10b7feb6d8165b41231",
+  "reference_sha256": {
+    "original": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+  },
+  "reviewer": "Codex visual review",
+  "checks": {
+    "identity": {
+      "status": "unknown",
+      "evidence": "对照原始照片、第一版与本版：明显立体沟槽已去除，左侧导流口缩短；上接下悬的右柄、厚口沿与主要绿白区域保留。局部云状纹理和色块边界仍有重构，不能认定精细外观完全一致。"
+    },
+    "text": {
+      "status": "pass",
+      "evidence": "给日常，一点绿意保持可读，没有新增文字或品牌。"
+    },
+    "claims": {
+      "status": "pass",
+      "evidence": "只使用情绪性标题，未添加容量、材质、功效、认证和赠品信息。"
+    },
+    "visual": {
+      "status": "pass",
+      "evidence": "场景、光影与标题布局沿用第一版，未因修正而破坏层级；与摩卡壶同属暖白/棕色侧光体系，按本商品改用更浅背景。"
+    },
+    "usage": {
+      "status": "pass",
+      "evidence": "可供比较与选择的通用营销图演示；与本次用途相符，不是平台审核结论。"
+    }
+  }
+}

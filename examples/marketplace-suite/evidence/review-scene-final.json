@@ -1,0 +1,29 @@
+{
+  "candidate_sha256": "d16680cdda0ef77f2fc8afa772cc226b80134b29a4c22c98cec9b25737690adf",
+  "reference_sha256": {
+    "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+  },
+  "reviewer": "Codex visual review",
+  "checks": {
+    "identity": {
+      "status": "unknown",
+      "evidence": "已实际查看原始照片与当前工具完整成图。原物上下壶体、左嘴、黑色顶钮与上接下悬侧柄的可见结构保持；局部水渍/划痕与微小标记有生成式重构，不能确认精细一致。"
+    },
+    "text": {
+      "status": "unknown",
+      "evidence": "计划中的中文标题和说明已看图核对，可读且无错漏。商品原刻字/微小表面标记较小或被重构，未确认逐笔准确。"
+    },
+    "claims": {
+      "status": "pass",
+      "evidence": "仅呈现当前商品可见结构与日常场景，没有借用竞品容量、材质成分、温度、功率、认证或销售数据。 杯碟和托盘明确标为布景。"
+    },
+    "visual": {
+      "status": "pass",
+      "evidence": "台面、杯碟和托盘构成可识别咖啡角；商品完整且与道具分离，文本明确道具为布景；与前三张共用黑色无衬线和橙线。 结论覆盖本次实际查看的图片尺寸，未单独验证所有手机缩略尺寸。"
+    },
+    "usage": {
+      "status": "pass",
+      "evidence": "当前用途为通用商品附图/详情模块样例，未将其当作平台第一主图合规证明。"
+    }
+  }
+}

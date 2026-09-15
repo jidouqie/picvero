@@ -1,0 +1,77 @@
+<div id="picvero-delivery-gallery" aria-label="商品套图预览">
+  <style>
+    #picvero-delivery-gallery { color-scheme: light dark; color: light-dark(#252525,#ededed); font-family: "PingFang SC", "Microsoft YaHei", sans-serif; width: 100%; }
+    #picvero-delivery-gallery * { box-sizing: border-box; }
+    #picvero-delivery-gallery .pv-layout { display: grid; grid-template-columns: minmax(0,1fr) 66px; gap: 14px; align-items: start; }
+    #picvero-delivery-gallery .pv-main { margin: 0; min-width: 0; }
+    #picvero-delivery-gallery .pv-main img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 17px; background: light-dark(#f3f2ee,#252622); }
+    #picvero-delivery-gallery .pv-thumbnails { display: grid; gap: 9px; padding: 3px; }
+    #picvero-delivery-gallery .pv-thumb { display: block; padding: 3px; margin: 0; border: 2px solid transparent; border-radius: 12px; background: transparent; cursor: pointer; width: 60px; height: 60px; }
+    #picvero-delivery-gallery .pv-thumb[aria-pressed="true"] { border-color: light-dark(#4785ff,#8bafff); }
+    #picvero-delivery-gallery .pv-thumb img { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: 7px; }
+    #picvero-delivery-gallery .pv-caption { display: flex; justify-content: space-between; gap: 16px; margin-top: 12px; color: light-dark(#606060,#bdbdbd); }
+    #picvero-delivery-gallery .pv-count { white-space: nowrap; }
+    @media (max-width: 420px) {
+      #picvero-delivery-gallery .pv-layout { grid-template-columns: minmax(0,1fr) 50px; gap: 8px; }
+      #picvero-delivery-gallery .pv-thumbnails { padding: 0; gap: 6px; }
+      #picvero-delivery-gallery .pv-thumb { width: 50px; height: 50px; padding: 2px; }
+      #picvero-delivery-gallery .pv-main img { border-radius: 12px; }
+    }
+  </style>
+  <div class="pv-layout">
+    <figure class="pv-main">
+      <img class="pv-image" alt="商品图片预览">
+      <figcaption class="pv-caption"><span class="pv-label" aria-live="polite"></span><span class="pv-count"></span></figcaption>
+    </figure>
+    <div class="pv-thumbnails" role="group" aria-label="选择图片"></div>
+  </div>
+  <script type="application/json" class="pv-data">__PICVERO_GALLERY_IMAGES__</script>
+  <script>
+    (() => {
+      const root = document.getElementById('picvero-delivery-gallery');
+      const images = JSON.parse(root.querySelector('.pv-data').textContent);
+      const main = root.querySelector('.pv-image');
+      const label = root.querySelector('.pv-label');
+      const counter = root.querySelector('.pv-count');
+      const thumbnails = root.querySelector('.pv-thumbnails');
+      if (!Array.isArray(images) || images.length === 0) {
+        root.hidden = true;
+        return;
+      }
+      const buttons = images.map((image, index) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'pv-thumb';
+        button.setAttribute('aria-label', '查看' + image.title);
+        button.setAttribute('aria-pressed', String(index === 0));
+        const thumbnail = document.createElement('img');
+        thumbnail.src = image.src;
+        thumbnail.alt = image.title;
+        thumbnail.width = 50;
+        thumbnail.height = 50;
+        button.appendChild(thumbnail);
+        thumbnails.appendChild(button);
+        return button;
+      });
+      function select(index) {
+        main.src = images[index].src;
+        main.alt = images[index].title;
+        label.textContent = images[index].title;
+        counter.textContent = `${index + 1} / ${images.length}`;
+        buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === index)));
+      }
+      buttons.forEach((button, index) => {
+        button.addEventListener('click', () => select(index));
+        button.addEventListener('keydown', event => {
+          if (!['ArrowDown','ArrowUp','ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
+          event.preventDefault();
+          const forward = event.key === 'ArrowDown' || event.key === 'ArrowRight';
+          const next = event.key === 'Home' ? 0 : event.key === 'End' ? images.length - 1 : (index + (forward ? 1 : -1) + images.length) % images.length;
+          select(next);
+          buttons[next].focus();
+        });
+      });
+      select(0);
+    })();
+  </script>
+</div>

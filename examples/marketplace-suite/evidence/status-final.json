@@ -1,0 +1,45 @@
+{
+  "run": "/path/to/picvero/runs/marketplace-suite/20260915T022753-23b83903e2",
+  "jobs": [
+    {
+      "sku": "MOKA001",
+      "shot": "overview",
+      "status": "inconclusive",
+      "next_action": "needs_input",
+      "selected_version": null,
+      "renders": 2,
+      "attempts": 2,
+      "max_renders": 3
+    },
+    {
+      "sku": "MOKA001",
+      "shot": "handle",
+      "status": "inconclusive",
+      "next_action": "needs_input",
+      "selected_version": null,
+      "renders": 1,
+      "attempts": 1,
+      "max_renders": 3
+    },
+    {
+      "sku": "MOKA001",
+      "shot": "details",
+      "status": "inconclusive",
+      "next_action": "needs_input",
+      "selected_version": null,
+      "renders": 2,
+      "attempts": 2,
+      "max_renders": 3
+    },
+    {
+      "sku": "MOKA001",
+      "shot": "scene",
+      "status": "inconclusive",
+      "next_action": "needs_input",
+      "selected_version": null,
+      "renders": 1,
+      "attempts": 1,
+      "max_renders": 3
+    }
+  ]
+}

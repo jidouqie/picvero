@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "label": "货映 · 真实网页照片测试",
+  "created_at": "2026-09-15T00:18:40.403130+00:00",
+  "draft_export": true,
+  "selected_only": false,
+  "items": [
+    {
+      "sku": "WEB001",
+      "product": "绿白带柄水舀",
+      "shot": {
+        "id": "main",
+        "kind": "packshot",
+        "goal": "保留原物体的白底候选",
+        "text": [],
+        "fact_ids": [
+          "color",
+          "handle",
+          "lip"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/WEB001/main-v1.png",
+      "sha256": "2f27c2e8dcdb565100f361a588f6ac7a9e4dac9fcbc646e1196d77510e8ec2bd",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "front",
+          "role": "product",
+          "file": "references/WEB001/front.jpg",
+          "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+        },
+        {
+          "id": "source_csv",
+          "role": "document",
+          "file": "references/WEB001/source_csv.csv",
+          "sha256": "a0fb0d3654299099e346afbb5f0b3366c9b1f7fa4d1095ca272f3115faaeac5e"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "2f27c2e8dcdb565100f361a588f6ac7a9e4dac9fcbc646e1196d77510e8ec2bd",
+        "reference_sha256": {
+          "front": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f",
+          "source_csv": "a0fb0d3654299099e346afbb5f0b3366c9b1f7fa4d1095ca272f3115faaeac5e"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "右侧悬空长柄、左侧导流口与主要绿色纹路保留；候选的表面斑点和细纹明显更清楚，低清原图不足以验证这些新增细节。"
+          },
+          "text": {
+            "status": "not_applicable",
+            "evidence": "原图无可见品牌文字，本图没有增加说明文字。"
+          },
+          "claims": {
+            "status": "not_applicable",
+            "evidence": "没有增加容量、材料、认证或功能参数。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "物体完整可见，白底与接触阴影自然，原背景已移除。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "仅作白底图功能测试，尚未核验任何电商平台审核规则。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "WEB001",
+      "product": "绿白带柄水舀",
+      "shot": {
+        "id": "scene",
+        "kind": "scene",
+        "goal": "同角度放在干净浅灰台面，无新增配件",
+        "text": [],
+        "fact_ids": [
+          "color",
+          "handle",
+          "lip"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/WEB001/scene-v1.png",
+      "sha256": "8314cdcb67e76fe068fdf180aeb1c8d9bca83aa26418206137bc2334b7f18708",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "front",
+          "role": "product",
+          "file": "references/WEB001/front.jpg",
+          "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+        },
+        {
+          "id": "source_csv",
+          "role": "document",
+          "file": "references/WEB001/source_csv.csv",
+          "sha256": "a0fb0d3654299099e346afbb5f0b3366c9b1f7fa4d1095ca272f3115faaeac5e"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "8314cdcb67e76fe068fdf180aeb1c8d9bca83aa26418206137bc2334b7f18708",
+        "reference_sha256": {
+          "front": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f",
+          "source_csv": "a0fb0d3654299099e346afbb5f0b3366c9b1f7fa4d1095ca272f3115faaeac5e"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "长柄悬空端、左侧导流口与主要绿白分布仍可辨认；表面细小斑点和纹理较原图发生重构，不能仅凭低清原图确认全部一致。"
+          },
+          "text": {
+            "status": "not_applicable",
+            "evidence": "未增加图中文字。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "使用的描述只涉及可见颜色、开放式长柄和导流口，未增加容量、材质、食品接触或认证声明。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "场景背景简洁，无额外配件；图形文字清楚且主体完整。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "符合本次功能测试用途；没有执行或承诺平台上架。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "WEB001",
+      "product": "绿白带柄水舀",
+      "shot": {
+        "id": "feature_cn",
+        "kind": "feature",
+        "goal": "以可观察外形做中文特点图",
+        "text": [
+          "绿白相间",
+          "开放式长柄",
+          "导流口设计"
+        ],
+        "fact_ids": [
+          "color",
+          "handle",
+          "lip"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/WEB001/feature_cn-v1.png",
+      "sha256": "97e1909182bfe677a9d371f88f7f66e2ede5c4b0dcab3e20b39c15aab7db4fe0",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "front",
+          "role": "product",
+          "file": "references/WEB001/front.jpg",
+          "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+        },
+        {
+          "id": "source_csv",
+          "role": "document",
+          "file": "references/WEB001/source_csv.csv",
+          "sha256": "a0fb0d3654299099e346afbb5f0b3366c9b1f7fa4d1095ca272f3115faaeac5e"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "97e1909182bfe677a9d371f88f7f66e2ede5c4b0dcab3e20b39c15aab7db4fe0",
+        "reference_sha256": {
+          "front": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f",
+          "source_csv": "a0fb0d3654299099e346afbb5f0b3366c9b1f7fa4d1095ca272f3115faaeac5e"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "长柄悬空端、左侧导流口与主要绿白分布仍可辨认；表面细小斑点和纹理较原图发生重构，不能仅凭低清原图确认全部一致。"
+          },
+          "text": {
+            "status": "pass",
+            "evidence": "中文三处文案分别为绿白相间、开放式长柄、导流口设计，均可读。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "使用的描述只涉及可见颜色、开放式长柄和导流口，未增加容量、材质、食品接触或认证声明。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "商品完整，标注线指向对应区域，主要文字可读；属于候选设计而非实拍证据。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "符合本次功能测试用途；没有执行或承诺平台上架。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "WEB001",
+      "product": "绿白带柄水舀",
+      "shot": {
+        "id": "feature_en",
+        "kind": "localized",
+        "goal": "把中文说明改为英文，保留商品与布局",
+        "text": [
+          "Green & white finish",
+          "Open-ended handle",
+          "Pouring lip"
+        ],
+        "fact_ids": [
+          "color",
+          "handle",
+          "lip"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/WEB001/feature_en-v1.png",
+      "sha256": "225dcef67e6e9efa8e02907fe226102c829bf5060c5bf812606ee51479ee4eb5",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "front",
+          "role": "product",
+          "file": "references/WEB001/front.jpg",
+          "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+        },
+        {
+          "id": "source_csv",
+          "role": "document",
+          "file": "references/WEB001/source_csv.csv",
+          "sha256": "a0fb0d3654299099e346afbb5f0b3366c9b1f7fa4d1095ca272f3115faaeac5e"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "225dcef67e6e9efa8e02907fe226102c829bf5060c5bf812606ee51479ee4eb5",
+        "reference_sha256": {
+          "front": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f",
+          "source_csv": "a0fb0d3654299099e346afbb5f0b3366c9b1f7fa4d1095ca272f3115faaeac5e"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "长柄悬空端、左侧导流口与主要绿白分布仍可辨认；表面细小斑点和纹理较原图发生重构，不能仅凭低清原图确认全部一致。"
+          },
+          "text": {
+            "status": "pass",
+            "evidence": "英文为 Green & white finish、Open-ended handle、Pouring lip；未发现中文残留，长文已换行且没有明显截断。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "使用的描述只涉及可见颜色、开放式长柄和导流口，未增加容量、材质、食品接触或认证声明。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "商品完整，标注线指向对应区域，主要文字可读；属于候选设计而非实拍证据。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "符合本次功能测试用途；没有执行或承诺平台上架。"
+          }
+        }
+      }
+    }
+  ],
+  "omitted": []
+}

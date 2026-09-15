@@ -1,0 +1,12 @@
+{
+  "version": "0.5.1",
+  "checked_on": "2026-09-15",
+  "change": "删除自动修正和额外微调规则；默认快速核对一次，没大问题直接交付，重大问题简短提示。只有用户明确要求修改时制作新版本。",
+  "unit_tests": 44,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "archives_valid": true,
+  "image_tool_calls_this_revision": 0,
+  "behavioral_evaluation": "说明一致性与打包检查；未新增生图或独立模型评测。",
+  "global_installation_changed": false
+}

@@ -1,0 +1,409 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-15T01:46:18.883465+00:00",
+  "plan_sha256": "f9ae9c5802518f3fe1576b0ee9c0a95ebcf794ac9a1e4cd525eec9377d8f4e71",
+  "jobs": {
+    "MOKA001/packshot": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/MOKA001/packshot-v1.png",
+          "sha256": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1405351,
+            "sha256": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: background-extraction.\nAsset type: ecommerce single-product clean-background photo, square 1:1.\nInput image 1: actual photographed vintage moka pot, the edit target and sole source of product facts.\nCreate a beautifully lit clean white studio product photograph of this EXACT photographed object. Replace the blue wall and table with a clean white seamless background, give it soft directional studio light and a natural compact contact shadow. Center the entire complete pot in a square canvas with comfortable margins, at its current front/slightly elevated angle. Product height about 78 percent.\nKeep this SAME used pot, not a generic new moka pot. Preserve its faceted silver upper body and lower boiler, narrow cylindrical middle band, black angular knob, closed faceted lid, short left-facing pouring lip, right black angular handle connected only at the TOP and hanging free at the bottom, its exact hinge and proportions. Preserve the original silver surface's water spots, thin scratches, darker patches and brownish worn bottom edge; they are product condition, not background dirt to clean. Preserve the faint original front-band engraving as it is; do not invent, replace or enlarge lettering or a logo. No polishing into mirror-new metal, no structural redesign, no added safety valve not visible in photo, no extra parts.\nNo overlay words, badges, props, decorations or watermark. Improve the photography only.",
+          "prompt_sha256": "09dbf7eff772d8173290a9aa7b7e4ed98eb3340ff2565ae3195a4a42440538dc",
+          "recorded_at": "2026-09-15T01:47:41.224614+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T01:52:01.014573+00:00",
+              "report": {
+                "candidate_sha256": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+                  },
+                  "text": {
+                    "status": "unknown",
+                    "evidence": "没有叠加营销文字。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "独立白底方图，整壶完整、主体明确、底部有接触阴影；周边留白偏少但未裁切。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T01:47:41.225620+00:00",
+          "event": "generated",
+          "version": 1
+        }
+      ]
+    },
+    "MOKA001/hero": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/MOKA001/hero-v1.png",
+          "sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 2072868,
+            "sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: compositing / ads-marketing.\nAsset type: premium ecommerce campaign hero, square 1:1, refined editorial still-life photograph with Chinese typography.\nInput image 1 is the real moka pot photograph and the sole product fact reference. Transform its presentation into a genuinely art-directed upscale vintage coffee moment while keeping the exact used pot identity.\nDesign: deep espresso-brown plaster architectural alcove in the rear, low warm-ivory stone counter, gentle morning window light from upper left forming a broad diagonal highlight and shadow. A subtle warm terracotta vertical plane at the far left gives depth. The single moka pot sits on the counter in the right half, large and clearly legible, fully visible with space above its black knob and below its base. Background softly falls away behind it, silver pot separated with broad soft reflections. Calm but sophisticated magazine-cover composition, high photographic quality, restrained rich tonal depth. No coffee cups, coffee beans, plants, fake steam, fruit, accessories or stovetop. The pot is a styled object at rest.\nTypography: generous left/top-left negative space. Small warm-ivory eyebrow: \"咖啡时光\". Large elegant Chinese Song/Ming serif headline exactly \"把日常，慢慢煮好\" split deliberately as \"把日常，\" on line 1 and \"慢慢煮好\" on line 2. Precise alignment, exceptionally readable, thoughtful line spacing, no outlines or stickers. No other text and no invented brand.\nCritical invariants: keep the photographed pot's slightly elevated frontal orientation, faceted upper and lower silver body and waist band proportions; black angular lid knob and right handle; handle connected ONLY at the upper hinge with free bottom end, left pouring lip. Retain authentic water spotting, scratching and brownish worn bottom edge, visibly used but beautifully photographed, not mirror-polished into a new product. Retain original tiny faint engraving; do not replace/clean/redesign product marks. No extra valves, lid openings, disassembly or hidden structures. Do not make the product gold or copper because of the environment. Styling changes only; no performance, capacity, material, brand, price or sales claims.",
+          "prompt_sha256": "2364ce3ed26a83594b788da0d33520e93fca1827bb3e49645119afea7105a514",
+          "recorded_at": "2026-09-15T01:48:54.001432+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T01:52:01.105930+00:00",
+              "report": {
+                "candidate_sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+                  },
+                  "text": {
+                    "status": "unknown",
+                    "evidence": "咖啡时光、把日常，慢慢煮好均可读。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "咖啡棕墙面、斜向日光和浅色台面形成空间层次；左上标题与右侧商品分区，未遮挡壶嘴或把手。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T01:48:54.002698+00:00",
+          "event": "generated",
+          "version": 1
+        }
+      ]
+    },
+    "MOKA001/feature_cn": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/MOKA001/feature_cn-v1.png",
+          "sha256": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 2082965,
+            "sha256": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: ads-marketing / product feature layout.\nAsset type: premium Chinese ecommerce feature page, one square 1:1 image.\nInput image 1: sole factual product reference, the real used moka pot.\nInput image 2: previously generated campaign image, STYLE REFERENCE ONLY for warm espresso/ivory palette, light and refined serif typography. It is not a second product or proof of details.\nCreate a polished editorial feature page matching this warm coffee visual system, with a very different page composition from the hero. A warm ivory left panel covers roughly 60 percent; a deep espresso brown right panel covers 40 percent; one narrow terracotta vertical rule ties them together. Top-left headline in elegant dark coffee Chinese Song serif, exactly \"形有棱角，\" then \"日常有温度\". Below, show the ENTIRE single pot large in the left-center, 55 percent canvas height, grounded on a subtle pale stone ledge with soft believable shadow, using the exact reference viewing angle and condition. Do not crop the spout, knob, handle or base.\nOn the right panel put two spacious editorial notes in warm ivory, with small simple sequence numbers \"01\" and \"02\", and exact Chinese text:\n\"多面壶身\"\n\"开放式侧柄\"\nA thin understated line can relate the first label to a visible body facet and the second to the visible free-ended handle. No circular regenerated macro photographs, no X-ray, no extra duplicate pots. Make the design striking, spacious and richly composed with readable alignment and hierarchy. No fake logo, brand, claims, capacity, materials, price or QR.\nProduct invariants: the same faceted silver upper chamber, tapering lower boiler, cylindrical middle band, closed faceted lid with black polygonal knob, short left pouring lip, right black angular handle attached ONLY at its upper hinge, lower end hanging free. Original water spots, thin scratches, darker patches and worn brownish base edge remain, not polished into a new item. Keep tiny original faint engraving, never invent replacement text. Product is silver, not gold, brass or ceramic. Keep the full structure at the same angle as image 1. This is an attractive presentation of the pictured used object.",
+          "prompt_sha256": "63d63523173d90ca0622a9a0441fb2a9cd1a8c35d68b4cd73ce55e79b23450b3",
+          "recorded_at": "2026-09-15T01:50:09.427316+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T01:52:01.197201+00:00",
+              "report": {
+                "candidate_sha256": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+                  },
+                  "text": {
+                    "status": "unknown",
+                    "evidence": "形有棱角，日常有温度、多面壶身、开放式侧柄和序号均可读。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "暖白与棕色分栏；标题、两项特点及序号层级明确；指引线分别对应壶身和侧柄，完整商品未被裁切。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T01:50:09.428592+00:00",
+          "event": "generated",
+          "version": 1
+        }
+      ]
+    },
+    "MOKA001/feature_en": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/MOKA001/feature_en-v1.png",
+          "sha256": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1832247,
+            "sha256": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: text-localization.\nAsset type: English ecommerce feature page, square 1:1.\nInput image 1: the Chinese feature page, the EDIT TARGET. Input image 2: the real moka pot photograph, product-fact reference ONLY.\nMake a precise localized edition of image 1. Keep the entire layout, colors, two panels, stone ledge, shadows, tiny foreground plant silhouette, pot position, pot scale, visible product appearance and annotation line/dot positions unchanged as closely as possible. Replace ONLY the following overlaid Chinese marketing text.\nUpper-left headline:\n\"形有棱角，\" -> \"Defined lines.\"\n\"日常有温度\" -> \"Warm moments.\"\nRight upper note:\n\"多面壶身\" -> \"Faceted body\"\nRight lower note:\n\"开放式侧柄\" -> \"Open-ended handle\"\nKeep \"01\" and \"02\" exactly. Main headline uses a refined dark espresso serif with the two specified lines. Make right notes warm ivory and serif, naturally sized; \"Open-ended\" and \"handle\" may split over two lines to avoid the edge. All letters must be clearly readable, correctly spelled, comfortably inside the canvas. No other text.\nDo not translate, replace or alter any faint original engraving on the actual pot. Preserve the exact silver facets, black lid knob, left short spout, right top-attached/free-bottom handle, all water stains/scratches and worn lower edge from image 1; use original photo only to prevent structure drift, do not restage or redesign the object. No polishing, new marks, extra hardware, technical specifications, logos or claims. This is a text replacement task, not a new product photo.",
+          "prompt_sha256": "d363cd0390d8530ab9eac0557643eed858f004f41253224dc4e0fb52f45f5974",
+          "recorded_at": "2026-09-15T01:52:00.920096+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T01:52:01.287528+00:00",
+              "report": {
+                "candidate_sha256": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+                  },
+                  "text": {
+                    "status": "unknown",
+                    "evidence": "Defined lines. / Warm moments. / Faceted body / Open-ended handle 及 01、02 逐项可读；未增加功效，保留情绪文案含义。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "英文标题及两项说明可读，Open-ended handle 合理分行；与中文稿对比，分栏、商品位置、指引线和场景基本一致，未发现明显遮挡。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T01:52:00.921262+00:00",
+          "event": "generated",
+          "version": 1
+        }
+      ]
+    },
+    "SCOOP001/hero": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/SCOOP001/hero-v1.png",
+          "sha256": "3d529d24fbf72d36fc89c104aa9c8f03e986597265a9380afa1f6c523b4f3124",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1970942,
+            "sha256": "3d529d24fbf72d36fc89c104aa9c8f03e986597265a9380afa1f6c523b4f3124",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: compositing / ads-marketing.\nAsset type: square 1:1 ecommerce campaign for a DIFFERENT SKU in the same warm editorial homewares demo.\nInput image 1: ONLY product-fact reference and edit target, the real green-and-white long-handled pouring scoop.\nInput image 2: STYLE ONLY. Borrow the warm espresso/ivory light, sophisticated Chinese serif hierarchy and sense of physical space. Do NOT put that moka pot or any of its hardware/text into the result.\nProduce an exceptionally refined homewares still life. One photographed scoop from image 1 is large, fully visible and grounded on an understated warm ivory shelf, slightly right of center. Warm ivory rear plaster wall with a slim deep coffee-brown recessed side plane gives architectural depth. Side daylight from upper left, soft but intentional shadow, quiet highlights through the milky-white body. A small neutral out-of-focus foreground edge can add depth, but no plants or other objects, no water, no food. Product's green supplies the only strong color accent. Keep the whole rim, left lip and free-ended right handle visible. Layout feels related to image 2, but with a lighter palette suited to the milky translucent product. Generous upper-left type area; excellent product contrast.\nSingle Chinese headline exactly \"给日常，一点绿意\" in refined dark coffee Song serif, naturally split on two lines. No other text, fake brand, labels or icons.\nPreserve this exact object, not a ceramic mug: tapered cylindrical milky translucent white body with subtly cloudy molded streaks, irregular green patch on the front LEFT, green stripe down the back interior, green accent along right edge and base, thick rim, short subtle POURING LIP at LEFT. Right handle is one long flat angular green strip attached near the rim at its TOP ONLY; lower end hangs freely with a clear gap to the body. Do not create a closed C-shaped mug handle or extra attachment. Preserve main green patch placement and actual surface feel, no polished ceramic or invented texture, dimensions, capacity or functional claims. Keep the angle close to source so no unknown rear structures are shown.",
+          "prompt_sha256": "38f4898341440942b5c8024a1176d2149730f364c828189e837c70d8bc104221",
+          "recorded_at": "2026-09-15T01:53:57.290871+00:00",
+          "review_status": "needs_revision",
+          "reviews": [
+            {
+              "at": "2026-09-15T01:53:57.387565+00:00",
+              "report": {
+                "candidate_sha256": "3d529d24fbf72d36fc89c104aa9c8f03e986597265a9380afa1f6c523b4f3124",
+                "reference_sha256": {
+                  "original": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "fail",
+                    "evidence": "已对照原始水勺照片与完整成图：右侧开放式长柄、左嘴和主要绿白位置仍在；但原图浅表云状/斜向纹路在成图中变成明显立体分瓣沟槽，左侧导流口也被拉长。需要针对表面与壶嘴重做。"
+                  },
+                  "text": {
+                    "status": "pass",
+                    "evidence": "给日常，一点绿意可读，无多余参数和替换品牌。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "未出现容量、成分、功效和认证文案；没有新增出售配件。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "暖白与咖啡棕背景协调，绿色成为主体焦点；标题清晰，侧光与接触阴影自然，整体延续本批次风格。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "用于通用场景主视觉演示；不代表平台规则审核。"
+                  }
+                }
+              },
+              "verdict": "needs_revision"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        },
+        {
+          "version": 2,
+          "file": "images/SCOOP001/hero-v2.png",
+          "sha256": "6057e92da4692ee9933473aebd769bfac8c3bf292b86b10b7feb6d8165b41231",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1926353,
+            "sha256": "6057e92da4692ee9933473aebd769bfac8c3bf292b86b10b7feb6d8165b41231",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: precise-object-edit, corrective ecommerce revision.\nInput image 1: real product photograph, sole ground truth for the scoop's geometry and surface.\nInput image 2: current campaign image to revise. Keep its entire attractive warm cream/coffee brown architectural background, light direction, Chinese headline \"给日常，一点绿意\", type layout, object position and overall framing.\nFix ONLY the inaccurate product surface and pouring lip in image 2 by referring closely to image 1:\n1. The original scoop has a largely SMOOTH thin milky translucent white wall with subdued cloudy white streaking. The sweeping curves visible in the source are faint surface/clouding traces, NOT raised ribs or carved channels. Remove the strong embossed diagonal ribs, deep curved grooves, petal-like panels and thick marble appearance that were mistakenly added in image 2. Its surface must be quietly smooth with the very light cloudy streaks of image 1, neither ceramic nor faceted.\n2. Match the compact, shallow rounded LEFT pouring lip of image 1; shorten the overextended duckbill-like spout in image 2.\n3. Keep the original green patch shapes and positions, especially main irregular front-left green patch, green stripe on inside rear wall and green right/base accents. Keep the thick rounded milky rim and the right green long flat handle attached ONLY at the TOP, free at the bottom. Do not add another handle attachment.\nPreserve the original image 1 proportions and material appearance. Do not invent product engraving or labels. Keep the photographed product's imperfections, don't beautify it by changing construction. Make this a targeted correction; leave the rest of the elegant scene and all text unchanged. Square 1:1 independent image.",
+          "prompt_sha256": "3c99f202f12faf607c456459dd91007632818144838a6745191c99521ab26f53",
+          "recorded_at": "2026-09-15T01:55:42.944547+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T01:55:43.044573+00:00",
+              "report": {
+                "candidate_sha256": "6057e92da4692ee9933473aebd769bfac8c3bf292b86b10b7feb6d8165b41231",
+                "reference_sha256": {
+                  "original": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "对照原始照片、第一版与本版：明显立体沟槽已去除，左侧导流口缩短；上接下悬的右柄、厚口沿与主要绿白区域保留。局部云状纹理和色块边界仍有重构，不能认定精细外观完全一致。"
+                  },
+                  "text": {
+                    "status": "pass",
+                    "evidence": "给日常，一点绿意保持可读，没有新增文字或品牌。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "只使用情绪性标题，未添加容量、材质、功效、认证和赠品信息。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "场景、光影与标题布局沿用第一版，未因修正而破坏层级；与摩卡壶同属暖白/棕色侧光体系，按本商品改用更浅背景。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "可供比较与选择的通用营销图演示；与本次用途相符，不是平台审核结论。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T01:53:57.294138+00:00",
+          "event": "generated",
+          "version": 1
+        },
+        {
+          "at": "2026-09-15T01:55:42.945770+00:00",
+          "event": "generated",
+          "version": 2
+        }
+      ]
+    }
+  }
+}

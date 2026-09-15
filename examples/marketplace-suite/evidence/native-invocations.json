@@ -1,0 +1,123 @@
+[
+  {
+    "sku": "MOKA001",
+    "shot": "overview",
+    "version": 1,
+    "tool": "native image_gen",
+    "actual_prompt_file": "prompt-overview.txt",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-c4f0e79a-3b83-4c35-9972-b3f38a85d7ec.png",
+    "output_sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785",
+    "inputs_in_order": [
+      {
+        "file": "source.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      }
+    ]
+  },
+  {
+    "sku": "MOKA001",
+    "shot": "handle",
+    "version": 1,
+    "tool": "native image_gen",
+    "actual_prompt_file": "prompt-handle.txt",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-177bcb37-a748-4550-9a95-2f935ac6b413.png",
+    "output_sha256": "69806e20937315f80466bead4df09649391add92b050849ee8ee1774db8ae9ee",
+    "inputs_in_order": [
+      {
+        "file": "source.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      },
+      {
+        "file": "images/overview-v1.png",
+        "role": "style",
+        "sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785"
+      }
+    ]
+  },
+  {
+    "sku": "MOKA001",
+    "shot": "details",
+    "version": 1,
+    "tool": "native image_gen",
+    "actual_prompt_file": "prompt-details.txt",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-d356a725-3ef7-4211-84fe-18da3ca274f1.png",
+    "output_sha256": "89f98203759aabd5f8c28542f751ce4bb8511ec2614a1edc7b4848fd6c3937ce",
+    "inputs_in_order": [
+      {
+        "file": "source.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      },
+      {
+        "file": "images/overview-v1.png",
+        "role": "style",
+        "sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785"
+      }
+    ]
+  },
+  {
+    "sku": "MOKA001",
+    "shot": "details",
+    "version": 2,
+    "tool": "native image_gen",
+    "actual_prompt_file": "prompt-details_v2.txt",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-dc1976aa-cf40-4261-af45-b26de96c4248.png",
+    "output_sha256": "aeb529ec57e93f20d76bed64abb8f97b169b9baef37444acb2da809f2461392c",
+    "inputs_in_order": [
+      {
+        "file": "source.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      },
+      {
+        "file": "images/details-v1.png",
+        "role": "edit_target",
+        "sha256": "89f98203759aabd5f8c28542f751ce4bb8511ec2614a1edc7b4848fd6c3937ce"
+      }
+    ]
+  },
+  {
+    "sku": "MOKA001",
+    "shot": "scene",
+    "version": 1,
+    "tool": "native image_gen",
+    "actual_prompt_file": "prompt-scene.txt",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-d3a3e936-275f-4e44-8766-fdfdea073d9c.png",
+    "output_sha256": "d16680cdda0ef77f2fc8afa772cc226b80134b29a4c22c98cec9b25737690adf",
+    "inputs_in_order": [
+      {
+        "file": "source.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      },
+      {
+        "file": "images/overview-v1.png",
+        "role": "style",
+        "sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785"
+      }
+    ]
+  },
+  {
+    "sku": "MOKA001",
+    "shot": "overview",
+    "version": 2,
+    "tool": "native image_gen",
+    "actual_prompt_file": "prompt-overview_v2.txt",
+    "native_output": "/path/to/codex/generated_images/01a0a0a0-8d4f-7342-8767-416ca7e38a7d/exec-8b20e476-d684-4b04-85ad-e5e437e4c48c.png",
+    "output_sha256": "0277f2723f3da6be47bfcd353610e5398183e95c982b4734a6fe3ebcfc0ce753",
+    "inputs_in_order": [
+      {
+        "file": "source.jpg",
+        "role": "product",
+        "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+      },
+      {
+        "file": "images/overview-v1.png",
+        "role": "edit_target",
+        "sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785"
+      }
+    ]
+  }
+]

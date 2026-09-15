@@ -1,0 +1,13 @@
+{
+  "version": "0.3.1",
+  "checked_on": "2026-09-15",
+  "unit_tests": 42,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "entry_skill": "huoying-studio",
+  "entry_archive": "huoying-studio-0.3.1.zip",
+  "standalone_entry_test": "pass: 无其他子技能时可解压、解析本地说明引用、创建任务、保存原图快照并读取状态",
+  "routing_validation": "12 场景设计核对；不是独立模型运行或准确率评测",
+  "native_images_generated_this_revision": 0,
+  "global_installation_changed": false
+}

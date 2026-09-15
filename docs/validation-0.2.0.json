@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-09-15",
+  "version": "0.2.0",
+  "unit_tests": {
+    "count": 40,
+    "passed": true
+  },
+  "official_skill_validator": [
+    {
+      "skill": "huoying-batch",
+      "passed": true
+    },
+    {
+      "skill": "huoying-brand",
+      "passed": true
+    },
+    {
+      "skill": "huoying-image",
+      "passed": true
+    },
+    {
+      "skill": "huoying-listing",
+      "passed": true
+    },
+    {
+      "skill": "huoying-localize",
+      "passed": true
+    },
+    {
+      "skill": "huoying-review",
+      "passed": true
+    },
+    {
+      "skill": "huoying-studio",
+      "passed": true
+    },
+    {
+      "skill": "huoying-suite",
+      "passed": true
+    }
+  ]
+}

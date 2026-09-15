@@ -1,0 +1,12 @@
+{
+  "checked_on": "2026-09-15",
+  "kind": "synthetic integration fixture",
+  "generation": "Codex built-in image_gen; 1 generation and 3 edit calls; no external API credentials",
+  "real_merchant_validation": false,
+  "files": {
+    "synthetic-product.png": "48cf89986e7c948831916dc29179b9a37bf4557877c389e387580c5ed17dbf71",
+    "native-packshot.png": "0d96afeecc09662198aee2cb1d4fb025553fab5c68fe76c8f9292241c4f6f2f4",
+    "native-scene-v1.png": "6483ff54d0e581e621bbf7d9b08f5c34f2fed7539056288fd10c210ce7b000f8",
+    "native-scene-v2.png": "08604d6cea35889a9df9e0fe22a01d75b04bd1c42932385df9ef6159e5cc5084"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "version": "0.5.0",
+  "checked_on": "2026-09-15",
+  "unit_tests": 44,
+  "tests_passed": true,
+  "unit_test_command": "python3 -m unittest discover -s tests -v",
+  "validated_skills": [
+    {
+      "skill": "picvero",
+      "result": "Skill is valid!",
+      "display_name": "picvero"
+    },
+    {
+      "skill": "picvero-batch",
+      "result": "Skill is valid!",
+      "display_name": "picvero-batch"
+    },
+    {
+      "skill": "picvero-brand",
+      "result": "Skill is valid!",
+      "display_name": "picvero-brand"
+    },
+    {
+      "skill": "picvero-image",
+      "result": "Skill is valid!",
+      "display_name": "picvero-image"
+    },
+    {
+      "skill": "picvero-listing",
+      "result": "Skill is valid!",
+      "display_name": "picvero-listing"
+    },
+    {
+      "skill": "picvero-localize",
+      "result": "Skill is valid!",
+      "display_name": "picvero-localize"
+    },
+    {
+      "skill": "picvero-review",
+      "result": "Skill is valid!",
+      "display_name": "picvero-review"
+    },
+    {
+      "skill": "picvero-suite",
+      "result": "Skill is valid!",
+      "display_name": "picvero-suite"
+    }
+  ],
+  "archives": [
+    {
+      "archive": "picvero-0.5.0.zip",
+      "valid": true,
+      "entries": 16
+    },
+    {
+      "archive": "picvero-skills-0.5.0.zip",
+      "valid": true,
+      "entries": 128
+    }
+  ],
+  "default_delivery": "五张独立套图、上架标题/卖点/描述、配图文案、详情页预览与完整下载包",
+  "default_max_renders": 1,
+  "project_links_verified": 8,
+  "global_installation_changed": false,
+  "checks": [
+    "默认次数省略时按一次处理",
+    "第一张检查失败后不再记录第二次生成，其他图位可继续",
+    "CSV 导入图位每项一次",
+    "更换项目前缀后显示名称与调用名称逐项一致",
+    "主入口独立包包含新整套说明及全部相对引用"
+  ],
+  "image_tool_calls_this_revision": 0,
+  "behavioral_evaluation": "已核对入口场景清单和各共用规则的一致性；未做独立模型盲测，也未重新生成五张套图。自动测试不证明首轮视觉质量。",
+  "metadata_basis": "https://learn.chatgpt.com/docs/build-skills"
+}

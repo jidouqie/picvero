@@ -1,0 +1,50 @@
+{
+  "checked_on": "2026-09-15",
+  "unit_tests": {
+    "count": 29,
+    "passed": true
+  },
+  "official_skill_validator": [
+    {
+      "skill": "huoying-batch",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "huoying-brand",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "huoying-image",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "huoying-listing",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "huoying-localize",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "huoying-review",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "huoying-studio",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "huoying-suite",
+      "passed": true,
+      "result": "Skill is valid!"
+    }
+  ],
+  "validator_dependency": "PyYAML 6.0.3, isolated development validation only; not a runtime dependency"
+}

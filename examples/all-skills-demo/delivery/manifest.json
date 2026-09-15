@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "label": "全部八项技能实演：摩卡壶与水勺",
+  "created_at": "2026-09-15T01:55:43.478860+00:00",
+  "draft_export": true,
+  "selected_only": false,
+  "items": [
+    {
+      "sku": "MOKA001",
+      "product": "银色多面壶身摩卡壶",
+      "shot": {
+        "id": "packshot",
+        "kind": "packshot",
+        "goal": "一张清晰的白底商品展示候选，无叠加文字",
+        "text": [],
+        "fact_ids": [
+          "facets",
+          "handle",
+          "lid_spout",
+          "wear"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/MOKA001/packshot-v1.png",
+      "sha256": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "file": "references/MOKA001/original.jpg",
+          "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+        "reference_sha256": {
+          "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+          },
+          "text": {
+            "status": "unknown",
+            "evidence": "没有叠加营销文字。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "独立白底方图，整壶完整、主体明确、底部有接触阴影；周边留白偏少但未裁切。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "MOKA001",
+      "product": "银色多面壶身摩卡壶",
+      "shot": {
+        "id": "hero",
+        "kind": "scene",
+        "goal": "咖啡棕与暖白的精致咖啡角主视觉，商品占画面约一半，保留旧痕",
+        "text": [
+          "把日常，慢慢煮好",
+          "咖啡时光"
+        ],
+        "fact_ids": [
+          "facets",
+          "handle",
+          "lid_spout",
+          "wear"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/MOKA001/hero-v1.png",
+      "sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "file": "references/MOKA001/original.jpg",
+          "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "651b6bba088e1ba7ff31e23da9ced8bac7faa535ff71ec8c5fa57d9ac2956c86",
+        "reference_sha256": {
+          "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+          },
+          "text": {
+            "status": "unknown",
+            "evidence": "咖啡时光、把日常，慢慢煮好均可读。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "咖啡棕墙面、斜向日光和浅色台面形成空间层次；左上标题与右侧商品分区，未遮挡壶嘴或把手。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "MOKA001",
+      "product": "银色多面壶身摩卡壶",
+      "shot": {
+        "id": "feature_cn",
+        "kind": "feature",
+        "goal": "同一视觉规范的中文特点页，用版式突出可见壶身和侧柄",
+        "text": [
+          "形有棱角，日常有温度",
+          "多面壶身",
+          "开放式侧柄"
+        ],
+        "fact_ids": [
+          "facets",
+          "handle"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/MOKA001/feature_cn-v1.png",
+      "sha256": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "file": "references/MOKA001/original.jpg",
+          "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "86b21bd7500b1187f5542676bdd1fc8f81c9d742405ea4f813703c934a451fd2",
+        "reference_sha256": {
+          "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+          },
+          "text": {
+            "status": "unknown",
+            "evidence": "形有棱角，日常有温度、多面壶身、开放式侧柄和序号均可读。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "暖白与棕色分栏；标题、两项特点及序号层级明确；指引线分别对应壶身和侧柄，完整商品未被裁切。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "MOKA001",
+      "product": "银色多面壶身摩卡壶",
+      "shot": {
+        "id": "feature_en",
+        "kind": "localized",
+        "goal": "把特点页中文替换成自然英文，商品刻字不翻译",
+        "text": [
+          "Defined lines.",
+          "Warm moments.",
+          "Faceted body",
+          "Open-ended handle"
+        ],
+        "fact_ids": [
+          "facets",
+          "handle"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/MOKA001/feature_en-v1.png",
+      "sha256": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "file": "references/MOKA001/original.jpg",
+          "sha256": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "6c8fb6806b02c7f01f4f2ceec06483f842332a4c267fb8e5e769a20d9af67245",
+        "reference_sha256": {
+          "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+          },
+          "text": {
+            "status": "unknown",
+            "evidence": "Defined lines. / Warm moments. / Faceted body / Open-ended handle 及 01、02 逐项可读；未增加功效，保留情绪文案含义。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "英文标题及两项说明可读，Open-ended handle 合理分行；与中文稿对比，分栏、商品位置、指引线和场景基本一致，未发现明显遮挡。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "SCOOP001",
+      "product": "绿白长柄水勺",
+      "shot": {
+        "id": "hero",
+        "kind": "scene",
+        "goal": "续做第二商品：复用暖白、咖啡棕和侧光，以商品绿色为点缀，独立生成",
+        "text": [
+          "给日常，一点绿意"
+        ],
+        "fact_ids": [
+          "color",
+          "handle",
+          "spout"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 2,
+      "file": "images/SCOOP001/hero-v2.png",
+      "sha256": "6057e92da4692ee9933473aebd769bfac8c3bf292b86b10b7feb6d8165b41231",
+      "review_status": "inconclusive",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "file": "references/SCOOP001/original.jpg",
+          "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "6057e92da4692ee9933473aebd769bfac8c3bf292b86b10b7feb6d8165b41231",
+        "reference_sha256": {
+          "original": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "unknown",
+            "evidence": "对照原始照片、第一版与本版：明显立体沟槽已去除，左侧导流口缩短；上接下悬的右柄、厚口沿与主要绿白区域保留。局部云状纹理和色块边界仍有重构，不能认定精细外观完全一致。"
+          },
+          "text": {
+            "status": "pass",
+            "evidence": "给日常，一点绿意保持可读，没有新增文字或品牌。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "只使用情绪性标题，未添加容量、材质、功效、认证和赠品信息。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "场景、光影与标题布局沿用第一版，未因修正而破坏层级；与摩卡壶同属暖白/棕色侧光体系，按本商品改用更浅背景。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "可供比较与选择的通用营销图演示；与本次用途相符，不是平台审核结论。"
+          }
+        }
+      }
+    }
+  ],
+  "omitted": []
+}

@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "result": {
+    "run": "/path/to/picvero/runs/all-skills-demo/20260915T014618-683c6291aa",
+    "jobs": [
+      {
+        "sku": "MOKA001",
+        "shot": "packshot",
+        "status": "inconclusive",
+        "next_action": "needs_input",
+        "selected_version": null,
+        "renders": 1,
+        "attempts": 1,
+        "max_renders": 3
+      },
+      {
+        "sku": "MOKA001",
+        "shot": "hero",
+        "status": "inconclusive",
+        "next_action": "needs_input",
+        "selected_version": null,
+        "renders": 1,
+        "attempts": 1,
+        "max_renders": 3
+      },
+      {
+        "sku": "MOKA001",
+        "shot": "feature_cn",
+        "status": "inconclusive",
+        "next_action": "needs_input",
+        "selected_version": null,
+        "renders": 1,
+        "attempts": 1,
+        "max_renders": 3
+      },
+      {
+        "sku": "MOKA001",
+        "shot": "feature_en",
+        "status": "inconclusive",
+        "next_action": "needs_input",
+        "selected_version": null,
+        "renders": 1,
+        "attempts": 1,
+        "max_renders": 3
+      },
+      {
+        "sku": "SCOOP001",
+        "shot": "hero",
+        "status": "planned",
+        "next_action": "generate",
+        "selected_version": null,
+        "renders": 0,
+        "attempts": 0,
+        "max_renders": 3
+      }
+    ]
+  }
+}

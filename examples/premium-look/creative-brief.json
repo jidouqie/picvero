@@ -1,0 +1,23 @@
+{
+  "version": "0.2.1",
+  "user_request": "更高大上、更好看，上一版物品保真还行",
+  "scope": "本次视觉方向，不自动覆盖店铺长期规范",
+  "baseline": "上一版白底候选",
+  "style": [
+    "墨绿与暖白",
+    "洞石展台",
+    "建筑感布景",
+    "侧向日光",
+    "有层级的中文排版"
+  ],
+  "source": "https://commons.wikimedia.org/wiki/File:Mug_image.jpg",
+  "outputs": [
+    "hero",
+    "feature"
+  ],
+  "user_selection": "not_selected",
+  "prompts": {
+    "hero": "Create ONE visually striking, premium ecommerce campaign image from the provided product. Image 1 is the existing clean product rendering whose object fidelity the user accepts; use it as the product appearance baseline. Image 2 is the original real photograph for structural reference. Preserve the same green-and-milky-white pouring vessel: exact tapered body and distinctive green marbling, thick rim with the small spout on the LEFT, and the flat long GREEN handle on the RIGHT attached only at the top with its lower end FREE, never a closed loop. Keep the same camera view and physical material appearance. Do not turn it into jade, glass or porcelain, and do not invent a logo, new features, a lid or measurements. Upgrade the art direction around it substantially: sophisticated forest-green and warm-ivory color-blocked architectural studio, sculptural curved green backdrop rising behind the object, a low warm pale-travertine display plinth, a deliberate shaft of soft sunlight entering from upper left, elegant deep shadows, subtle reflected-light patterns on the background. The object should feel like the hero of a premium homeware campaign, visually prominent in the lower middle/right with depth and separation, all of its handle and spout visible. Build a designed composition, not a product cutout pasted on blank white. Add excellent Chinese editorial typography in the upper left using exactly the headline '日常，也有好风景' split across two tasteful lines, in refined large ivory type. Add a much smaller, widely spaced uppercase eyebrow 'A TOUCH OF GREEN'. No other text. The text and product should have clearly different visual weight, generous but intentional margins, high contrast and beautiful balance. Rich, polished, photo-real art-directed commercial image with tactile set materials, premium color grading, luminous green accents. No fake brand, pricing, badges, exaggerated functional claims, unrelated accessories, or products. One square finished image.\n",
+    "feature": "Design ONE premium editorial ecommerce feature page in a square format using the referenced pouring vessel. Image 1 is the product-appearance baseline accepted by the user; Image 2 is the original photograph for structural identity. Preserve the same vessel, green-and-milky-white irregular marbling, visible surface finish, slightly tapered silhouette, small LEFT pouring lip, thick rolled rim, long flat GREEN RIGHT handle attached only at the top with its bottom hanging freely. Preserve the actual plastic-like appearance; do not turn the object into glass, jade, porcelain or a different expensive product. Keep the existing three-quarter elevated view, full product visible. Art direction: coordinated with a premium forest-green / warm-ivory homeware campaign. Build a refined asymmetrical editorial grid: a large warm-ivory left area holds the beautifully lit product on a thin pale travertine platform, with a soft sculptural arc or partial circle behind it; a tall rich forest-green panel on the right holds two elegantly spaced feature descriptions. Give the page layered depth, delicate daylight shadows, tactile stone and paper-like surfaces, sophisticated whitespace, careful alignment and high-end commercial typography. In the upper left place exactly '绿意，藏在细节里' in large dark-green Chinese editorial serif typography, with a smaller widely tracked line 'THE BEAUTY OF EVERYDAY'. On the right panel use ivory text: small '01' followed by '开放式长柄', and below with generous spacing small '02' followed by '导流口设计'. Use a thin fine separator, not boxes or large arrows. Keep text comfortably inside all edges. These are the only texts. Product should dominate the composition, labels remain legible, and the full handle and spout must be visible. Make it distinctly more polished and visually composed than a plain product info diagram. No made-up capacity, material claims, certifications, price, logo, brand, extra accessories or duplicated objects. Photo-real product with designer art direction. One finished square image.\n"
+  }
+}

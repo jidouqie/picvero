@@ -1,0 +1,13 @@
+Use case: text-localization.
+Asset type: English ecommerce feature page, square 1:1.
+Input image 1: the Chinese feature page, the EDIT TARGET. Input image 2: the real moka pot photograph, product-fact reference ONLY.
+Make a precise localized edition of image 1. Keep the entire layout, colors, two panels, stone ledge, shadows, tiny foreground plant silhouette, pot position, pot scale, visible product appearance and annotation line/dot positions unchanged as closely as possible. Replace ONLY the following overlaid Chinese marketing text.
+Upper-left headline:
+"形有棱角，" -> "Defined lines."
+"日常有温度" -> "Warm moments."
+Right upper note:
+"多面壶身" -> "Faceted body"
+Right lower note:
+"开放式侧柄" -> "Open-ended handle"
+Keep "01" and "02" exactly. Main headline uses a refined dark espresso serif with the two specified lines. Make right notes warm ivory and serif, naturally sized; "Open-ended" and "handle" may split over two lines to avoid the edge. All letters must be clearly readable, correctly spelled, comfortably inside the canvas. No other text.
+Do not translate, replace or alter any faint original engraving on the actual pot. Preserve the exact silver facets, black lid knob, left short spout, right top-attached/free-bottom handle, all water stains/scratches and worn lower edge from image 1; use original photo only to prevent structure drift, do not restage or redesign the object. No polishing, new marks, extra hardware, technical specifications, logos or claims. This is a text replacement task, not a new product photo.

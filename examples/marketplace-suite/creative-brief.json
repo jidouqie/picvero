@@ -1,0 +1,62 @@
+{
+  "version": "0.3.0",
+  "purpose": "通用商品附图/详情模块演示，不代表任何平台第一主图合规",
+  "source": "公有领域摩卡壶实拍，非参考品牌商品",
+  "design_direction": {
+    "id": "marketplace-layout-demo",
+    "version": 1,
+    "status": "proposed_for_current_task",
+    "scope": "本轮参考实际电商套图的设计样例；不覆盖用户长期品牌",
+    "palette": {
+      "main": "中性浅灰/暖白",
+      "dark": "石墨灰",
+      "accent": "少量陶土橙"
+    },
+    "typography": "清晰中文无衬线，主要信息大而简短，辅助文字明显更小",
+    "composition": "全貌概览、单特征局部对应、细节组合、实际场景分别表达；整套复用标题对齐与色彩",
+    "reference_method": [
+      "小米详情的产品+短标题和局部模块",
+      "UGREEN 单信息与对照结构",
+      "Bialetti 可识别的厨房/咖啡场景"
+    ],
+    "invariants": [
+      "保持原照视角、上下壶体比例、把手开放式连接和壶嘴朝向",
+      "壶身水渍、划痕、底沿旧痕和细小刻字保留；不能当作新壶抛光",
+      "不推断照片看不到的结构或参数"
+    ]
+  },
+  "shots": [
+    {
+      "id": "overview",
+      "buyer_question": "卖的是什么，主要外观怎样？",
+      "core_message": "商品名和可见结构",
+      "evidence": "原图整体轮廓、银色壶身和黑色侧柄",
+      "mechanism": "大商品与简短信息层级",
+      "reference_method": "小米首屏 + 京东大主体；不带促销价格"
+    },
+    {
+      "id": "handle",
+      "buyer_question": "侧柄到底是什么结构？",
+      "core_message": "上端连接，下端悬空",
+      "evidence": "原图右侧把手",
+      "mechanism": "全貌定位 + 单一局部大图",
+      "reference_method": "小米局部放大 + UGREEN 单信息页；不带性能数据"
+    },
+    {
+      "id": "details",
+      "buyer_question": "壶嘴、壶盖与顶钮长什么样？",
+      "core_message": "可见结构逐项对应",
+      "evidence": "原图壶嘴、壶盖与顶钮",
+      "mechanism": "两区域细节组合与标签",
+      "reference_method": "实际商品图按模块解释的方式；不仿造 Bialetti 内部步骤"
+    },
+    {
+      "id": "scene",
+      "buyer_question": "放在咖啡角是什么感觉？",
+      "core_message": "日常空间搭配",
+      "evidence": "原物外观；新增道具只作情境",
+      "mechanism": "台面实景，杯碟作为明确布景",
+      "reference_method": "Bialetti 早餐场景；不复制其图案、品牌或机位"
+    }
+  ]
+}

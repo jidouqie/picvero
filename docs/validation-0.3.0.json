@@ -1,0 +1,41 @@
+{
+  "version": "0.3.0",
+  "checked_on": "2026-09-15",
+  "unit_tests": 41,
+  "tests_passed": true,
+  "validated_skills": 8,
+  "reference_product_pages": 4,
+  "native_image_calls": 6,
+  "latest_image_slots": 4,
+  "targeted_revisions": 2,
+  "latest_image_review": "inconclusive: 微纹理/刻字待核对",
+  "latest_selection": "not_selected",
+  "technical_checks": [
+    {
+      "file": "details-v1.png",
+      "verdict": "covered_checks_pass"
+    },
+    {
+      "file": "details-v2.png",
+      "verdict": "covered_checks_pass"
+    },
+    {
+      "file": "handle-v1.png",
+      "verdict": "covered_checks_pass"
+    },
+    {
+      "file": "overview-v1.png",
+      "verdict": "covered_checks_pass"
+    },
+    {
+      "file": "overview-v2.png",
+      "verdict": "covered_checks_pass"
+    },
+    {
+      "file": "scene-v1.png",
+      "verdict": "covered_checks_pass"
+    }
+  ],
+  "suite_review": "已实际查看概览、侧柄、细节修正版和场景；图位分工及层级已核对；小尺寸预览未单独渲染。",
+  "native_only": true
+}

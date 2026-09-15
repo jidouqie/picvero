@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.DS_Store
+dist/
+runs/
+.skills-build-*/
+skills.previous/
+work/
+
+# Local merchant inputs, generated deliveries and skill activation links.
+/outputs/
+/.agents/
+/.codex/
+
+# Local environment, credentials and editor state.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+.venv/
+venv/
+.idea/
+.vscode/

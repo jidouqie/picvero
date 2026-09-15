@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "label": "货映 · 品牌视觉升级",
+  "created_at": "2026-09-15T00:46:54.414180+00:00",
+  "draft_export": false,
+  "selected_only": false,
+  "items": [
+    {
+      "sku": "WEB001",
+      "product": "绿白带柄水舀",
+      "shot": {
+        "id": "hero",
+        "kind": "scene",
+        "goal": "品牌广告主视觉：墨绿建筑布景、洞石展台与有层次的日光",
+        "text": [
+          "日常，也有好风景",
+          "A TOUCH OF GREEN"
+        ],
+        "fact_ids": [
+          "handle",
+          "lip",
+          "color"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/WEB001/hero-v1.png",
+      "sha256": "b9eecce1785a263a9c706b1bfe33b29549b62612684b84db3f130a0221bfda74",
+      "review_status": "reviewed_candidate",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "file": "references/WEB001/original.jpg",
+          "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+        },
+        {
+          "id": "baseline",
+          "role": "product",
+          "file": "references/WEB001/baseline.png",
+          "sha256": "2f27c2e8dcdb565100f361a588f6ac7a9e4dac9fcbc646e1196d77510e8ec2bd"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "b9eecce1785a263a9c706b1bfe33b29549b62612684b84db3f130a0221bfda74",
+        "reference_sha256": {
+          "original": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f",
+          "baseline": "2f27c2e8dcdb565100f361a588f6ac7a9e4dac9fcbc646e1196d77510e8ec2bd"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "pass",
+            "evidence": "以用户已接受的上一版外观为基线，对照原始图，主要轮廓、左侧导流口、悬空长柄及主要绿白纹路保留；未将布景材质赋予商品。"
+          },
+          "text": {
+            "status": "pass",
+            "evidence": "主标题“日常，也有好风景”与 A TOUCH OF GREEN 可读、无遮挡。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "使用审美标题与可观察的外形特点，没有新增容量、功效、价格或认证。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "墨绿布景、洞石与日光形成空间层次；商品与标题主次清楚，关键部件未被遮挡。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "适用于本次品牌视觉／详情特点页示例，不作为有纯白限制的平台主图规则证明。"
+          }
+        }
+      }
+    },
+    {
+      "sku": "WEB001",
+      "product": "绿白带柄水舀",
+      "shot": {
+        "id": "feature",
+        "kind": "feature",
+        "goal": "同调性的编辑式特点页：清晰标题和两个特点",
+        "text": [
+          "绿意，藏在细节里",
+          "THE BEAUTY OF EVERYDAY",
+          "01",
+          "开放式长柄",
+          "02",
+          "导流口设计"
+        ],
+        "fact_ids": [
+          "handle",
+          "lip"
+        ],
+        "aspect": "1:1",
+        "max_renders": 3
+      },
+      "version": 1,
+      "file": "images/WEB001/feature-v1.png",
+      "sha256": "b15dc4423b254d195ad797570ce13e97994dac5d9c67db152894262490e957a3",
+      "review_status": "reviewed_candidate",
+      "selection": "not_selected",
+      "references": [
+        {
+          "id": "original",
+          "role": "product",
+          "file": "references/WEB001/original.jpg",
+          "sha256": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f"
+        },
+        {
+          "id": "baseline",
+          "role": "product",
+          "file": "references/WEB001/baseline.png",
+          "sha256": "2f27c2e8dcdb565100f361a588f6ac7a9e4dac9fcbc646e1196d77510e8ec2bd"
+        }
+      ],
+      "review": {
+        "candidate_sha256": "b15dc4423b254d195ad797570ce13e97994dac5d9c67db152894262490e957a3",
+        "reference_sha256": {
+          "original": "f46f6bc74eb235b489bcd75430f31f66a7ff4a84a87ed239f9bc8aa47b163a5f",
+          "baseline": "2f27c2e8dcdb565100f361a588f6ac7a9e4dac9fcbc646e1196d77510e8ec2bd"
+        },
+        "reviewer": "Codex visual review",
+        "checks": {
+          "identity": {
+            "status": "pass",
+            "evidence": "以用户已接受的上一版外观为基线，对照原始图，主要轮廓、左侧导流口、悬空长柄及主要绿白纹路保留；未将布景材质赋予商品。"
+          },
+          "text": {
+            "status": "pass",
+            "evidence": "主标题、英文辅助行，以及开放式长柄、导流口设计均可读，编号与内容有清楚层级。"
+          },
+          "claims": {
+            "status": "pass",
+            "evidence": "使用审美标题与可观察的外形特点，没有新增容量、功效、价格或认证。"
+          },
+          "visual": {
+            "status": "pass",
+            "evidence": "暖白与墨绿分栏、标题和细节区相互配合，文字对齐和留白清楚，细节展示对应原图可见部位。"
+          },
+          "usage": {
+            "status": "pass",
+            "evidence": "适用于本次品牌视觉／详情特点页示例，不作为有纯白限制的平台主图规则证明。"
+          }
+        }
+      }
+    }
+  ],
+  "omitted": []
+}

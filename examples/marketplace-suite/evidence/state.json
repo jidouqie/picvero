@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-15T02:27:53.749553+00:00",
+  "plan_sha256": "35b3d60453f60120664bb52113db7bfd40af4d8df084d2e4ffdfac85b67cc424",
+  "jobs": {
+    "MOKA001/overview": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/MOKA001/overview-v1.png",
+          "sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1700657,
+            "sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: ecommerce product overview / reference-inspired visual design.\nCreate ONE polished square 1:1 ecommerce gallery image. Input image 1 is the actual product photograph and sole product fact reference. The user wants the clear, premium visual grammar of strong real marketplace listings, adapted to this specific pot.\nDesign: an oversized complete product at right/center, clean cool off-white and pale gray studio space with broad rounded architectural planes and a low smooth graphite-gray display base, subtle sculptural light, physically grounded shadow, sophisticated commerce photography. Use a restrained terracotta-orange accent rule and little accent capsules, not ornamental plants or travertine. Graphite text. Chinese modern sans-serif, bold clear title and deliberately smaller supporting text. Rich light/shadow depth, not flat clipart or an empty white cutout.\nTop-left text exactly:\n\"摩卡壶\"\n\"多面壶身 · 开放式侧柄\"\nAt the bottom in two neat modest informational blocks, exact labels:\n\"银色壶身\"\n\"黑色侧柄\"\nNo extra copy, badge, invented logo, price or technical numbers. Product still dominates the image; title does not obscure knob or handle.\nPreserve the EXACT photographed used object: its faceted upper chamber and lower boiler, cylindrical middle band, black polygonal knob, closed faceted lid, short LEFT pouring spout, RIGHT black angular open-ended handle connected only at the upper hinge and free at bottom. Preserve front/slightly elevated viewpoint and original component proportions. Retain the existing faint middle-band engraving without interpreting/replacing it, retain water spots, fine scratches, dark patches and brown worn bottom edge. Do not polish away product condition, change its metal to a new premium material, recolor silver into gold, create a Bialetti logo, add a valve or show unknown rear/internal structure. This is the same real object with an upgraded gallery layout. Keep entire pot visible.",
+          "prompt_sha256": "28efe9b30f397ad6574a8cc9b3cd75dfdce84cd8bf29e98dc547cbeba56837a3",
+          "recorded_at": "2026-09-15T02:29:15.977801+00:00",
+          "review_status": "needs_revision",
+          "reviews": [
+            {
+              "at": "2026-09-15T02:36:11.451594+00:00",
+              "report": {
+                "candidate_sha256": "d1b61bb946b8d6f1a23b2d29a0ba4f4e03c5afa5372b9cf7cdb3344956a06785",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "完整原图与成图已对照：上接下悬侧柄、左右部件位置及上下壶身保持；细小刻字、水渍与划痕有重构，精细一致性待核对。"
+                  },
+                  "text": {
+                    "status": "unknown",
+                    "evidence": "所有叠加标题/标签可读，商品微小刻字无法逐笔确认。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "只描述银色外观、多面壶身和黑色开放式侧柄，没有性能参数。"
+                  },
+                  "visual": {
+                    "status": "fail",
+                    "evidence": "副标题右缘过于靠近壶嘴，阅读避让不足；需要只缩小副标题并留出明确间距。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "通用附图/详情概览，不宣称平台第一主图合规。"
+                  }
+                }
+              },
+              "verdict": "needs_revision"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        },
+        {
+          "version": 2,
+          "file": "images/MOKA001/overview-v2.png",
+          "sha256": "0277f2723f3da6be47bfcd353610e5398183e95c982b4734a6fe3ebcfc0ce753",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1589951,
+            "sha256": "0277f2723f3da6be47bfcd353610e5398183e95c982b4734a6fe3ebcfc0ce753",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: precise typography spacing correction.\nInput image 1 is the original product photograph for identity. Input image 2 is the existing ecommerce overview image to edit.\nKeep image 2's complete composition, product position and scale, graphite pedestal, pale-gray backdrop, title, two bottom capsules, orange rule, lighting and all product pixels as close to unchanged as possible.\nCorrect ONLY the subtitle spacing: the text \"多面壶身 · 开放式侧柄\" currently nearly touches the LEFT POURING SPOUT. Reduce this supporting line's font size modestly, approximately 15-20 percent, keeping the same bold sans-serif, original baseline region and left alignment. Its right edge must end clearly BEFORE the pouring spout with comfortable visible empty space. Preserve the EXACT words and middle dot on one line. Main headline \"摩卡壶\" and bottom labels \"银色壶身\", \"黑色侧柄\" remain unchanged. Do not move the pot or crop it.\nDo not restage or repaint the product, do not change its water spots, scratches, worn base, facets, knob, left spout, original engraving or right top-attached/free-bottom handle. This is a small text-layout refinement only. Square 1:1.",
+          "prompt_sha256": "a93a9dd05ecc8db6e373819733ac548b2f3980c2591b8a117d1c01e424670b6e",
+          "recorded_at": "2026-09-15T02:44:10.487983+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T02:44:10.583775+00:00",
+              "report": {
+                "candidate_sha256": "0277f2723f3da6be47bfcd353610e5398183e95c982b4734a6fe3ebcfc0ce753",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "已实际查看原始照片与当前工具完整成图。原物上下壶体、左嘴、黑色顶钮与上接下悬侧柄的可见结构保持；局部水渍/划痕与微小标记有生成式重构，不能确认精细一致。"
+                  },
+                  "text": {
+                    "status": "unknown",
+                    "evidence": "计划中的中文标题和说明已看图核对，可读且无错漏。商品原刻字/微小表面标记较小或被重构，未确认逐笔准确。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "仅呈现当前商品可见结构与日常场景，没有借用竞品容量、材质成分、温度、功率、认证或销售数据。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "大商品、黑色主标题、橙色强调与底部两个信息块形成层级；第二版副标题已与壶嘴拉开可见间距。 结论覆盖本次实际查看的图片尺寸，未单独验证所有手机缩略尺寸。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "当前用途为通用商品附图/详情模块样例，未将其当作平台第一主图合规证明。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T02:29:15.978895+00:00",
+          "event": "generated",
+          "version": 1
+        },
+        {
+          "at": "2026-09-15T02:44:10.489049+00:00",
+          "event": "generated",
+          "version": 2
+        }
+      ]
+    },
+    "MOKA001/handle": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/MOKA001/handle-v1.png",
+          "sha256": "69806e20937315f80466bead4df09649391add92b050849ee8ee1774db8ae9ee",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1670658,
+            "sha256": "69806e20937315f80466bead4df09649391add92b050849ee8ee1774db8ae9ee",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: ecommerce single-feature evidence layout.\nOne square 1:1 premium product gallery image for the SAME moka pot.\nInput image 1: original actual pot, sole ground truth. Image 2: our generated overview, supporting STYLE reference for bold Chinese sans-serif, graphite/offwhite palette and terracotta accent ONLY.\nA distinctive dark graphite feature page. Top-left large highly legible warm-white headline exactly \"开放式侧柄\". Smaller line under it exactly \"上端连接 · 下端悬空\". Small terracotta eyebrow \"结构细节\". No other words.\nComposition: at lower-left show a smaller but complete photograph of the original pot from its original viewpoint, around 40 percent of canvas height, softly spotlighted on a dark surface. At right, occupying the larger area, show ONE magnified inset/crop from the SAME visible right-handle region, from original photo angle. This is a close view of the SAME item's visible handle, not a second item for sale and not a new angle. Use an understated rounded rectangular light-gray detail panel with a thin terracotta outline. The close-up must show the metal TOP hinge where the black angular handle connects to the upper chamber and its FREE LOWER END with a visible gap. Include enough adjoining silver pot wall to explain the geometry, but not hidden back surfaces. A simple thin terracotta line connects the handle in the small full-view image to the detail panel. Precise spacious alignment; focus on explaining the actual structure; no extra pictograms, measurements or claims.\nCarefully preserve the photographed handle's angular contour and top-only attachment; never add a bottom connection or make it a closed loop. The silver pot has faceted upper and lower sections, central cylindrical band, left spout and black lid knob, all exactly as source. Keep authentic used silver appearance, water spots, worn base and original tiny marks; do not polish into new metal or replace with a brand's stock moka model. Strong studio rim light may help the black handle read on dark background but keep its true shape and color. Show only observed details. No invented labels, heat resistance, ergonomic/performance guarantees, logos, price or numbers.",
+          "prompt_sha256": "e06c8ab0a25d2a29194abd58abff5419403c054df79f4afb90d6553601a72d5f",
+          "recorded_at": "2026-09-15T02:30:56.353353+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T02:44:10.674593+00:00",
+              "report": {
+                "candidate_sha256": "69806e20937315f80466bead4df09649391add92b050849ee8ee1774db8ae9ee",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "已实际查看原始照片与当前工具完整成图。原物上下壶体、左嘴、黑色顶钮与上接下悬侧柄的可见结构保持；局部水渍/划痕与微小标记有生成式重构，不能确认精细一致。"
+                  },
+                  "text": {
+                    "status": "unknown",
+                    "evidence": "计划中的中文标题和说明已看图核对，可读且无错漏。商品原刻字/微小表面标记较小或被重构，未确认逐笔准确。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "仅呈现当前商品可见结构与日常场景，没有借用竞品容量、材质成分、温度、功率、认证或销售数据。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "全貌与侧柄放大区对应，指引线落在上端连接处；右侧细节展示下端悬空，深浅对比让黑柄可辨。 结论覆盖本次实际查看的图片尺寸，未单独验证所有手机缩略尺寸。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "当前用途为通用商品附图/详情模块样例，未将其当作平台第一主图合规证明。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T02:30:56.354439+00:00",
+          "event": "generated",
+          "version": 1
+        }
+      ]
+    },
+    "MOKA001/details": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/MOKA001/details-v1.png",
+          "sha256": "89f98203759aabd5f8c28542f751ce4bb8511ec2614a1edc7b4848fd6c3937ce",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1570915,
+            "sha256": "89f98203759aabd5f8c28542f751ce4bb8511ec2614a1edc7b4848fd6c3937ce",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: ecommerce visible-detail layout.\nCreate ONE square 1:1 detail gallery image. Input 1 is the original photographed pot, sole product source. Input 2 is our overview image, STYLE ONLY for graphite/offwhite palette, terracotta accent and modern Chinese sans-serif.\nThis is a premium commerce DETAILS page, not another hero with the same background. Use a warm-white clean page, charcoal text, a small terracotta accent rule, subtle light-gray panels with soft corners and precise generous margins.\nHeadline at upper left exactly \"看清可见细节\".\nBelow the headline, use two large aligned independent photographic panels occupying the middle and lower page. LEFT panel: a crop of the actual original pot's LEFT pouring spout and adjacent faceted upper wall, from precisely the original view; show the short mouth silhouette and lid edge clearly. Label below this panel exactly \"左侧壶嘴\".\nRIGHT panel: crop of the actual original pot's CLOSED faceted top/lid and black polygonal knob, same camera angle as reference, without adding any open-lid or internal view. Label below it exactly \"棱面壶盖\". Under that, a smaller line exactly \"黑色顶钮\"; a very restrained fine line/dot may relate to the visible knob if helpful.\nEach panel uses the same photographic light and original surface appearance, and its crop has enough context to identify where it belongs. Avoid generic pot silhouettes, invented macro texture, dimension arrows, extra icons, promotional stickers, brand marks or numbers. No extra text.\nAccuracy: These are close representations of visible reference regions, not fictional newly photographed unseen surfaces. Keep the exact short left spout, faceted silver lid, black polygonal knob and worn lid seam. Do not replace the pot with a common rounded-handle Bialetti model. Preserve the source's water stains/scratches and worn condition. Do not generate a shiny pristine lid, new hinge, interior filter, safety valve or changed shape. All facets and contours should be based on image 1. Make the typography and photo details read at a glance, equal panel alignment, strong product-focused design.",
+          "prompt_sha256": "3f47c488e4c2169fe24082d9ff7168d131fad4829b06937ab20f93a9ed701a03",
+          "recorded_at": "2026-09-15T02:32:35.395879+00:00",
+          "review_status": "needs_revision",
+          "reviews": [
+            {
+              "at": "2026-09-15T02:32:35.495541+00:00",
+              "report": {
+                "candidate_sha256": "89f98203759aabd5f8c28542f751ce4bb8511ec2614a1edc7b4848fd6c3937ce",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "fail",
+                    "evidence": "原始照片与成图实际对照：左侧壶嘴局部仍能对应；右侧壶盖图变成更高俯视角，补出了大面积原照未显示清楚的盖面，顶钮形态也变化，不能当作原图局部放大。"
+                  },
+                  "text": {
+                    "status": "pass",
+                    "evidence": "看清可见细节、左侧壶嘴、棱面壶盖、黑色顶钮均可读且与计划一致。"
+                  },
+                  "claims": {
+                    "status": "fail",
+                    "evidence": "右侧新角度被呈现为真实细节，会让买家把推测盖面当作实拍依据，需要恢复原照同一视角。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "两个大图区域、底部标签和无衬线标题形成清楚层级，版式本身完整。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "定位通用附图/详情样例，未宣称符合平台第一主图规范。"
+                  }
+                }
+              },
+              "verdict": "needs_revision"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        },
+        {
+          "version": 2,
+          "file": "images/MOKA001/details-v2.png",
+          "sha256": "aeb529ec57e93f20d76bed64abb8f97b169b9baef37444acb2da809f2461392c",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1653401,
+            "sha256": "aeb529ec57e93f20d76bed64abb8f97b169b9baef37444acb2da809f2461392c",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: precise correction of a two-panel product detail page.\nInput 1 is the real original product photograph. Input 2 is the current generated two-panel detail page to correct.\nKeep the entire typography, page layout, two rounded panels, spacing, labels and neutral/terracotta visual styling of image 2. Keep all four exact text strings: \"看清可见细节\", \"左侧壶嘴\", \"棱面壶盖\", \"黑色顶钮\".\nThe RIGHT panel is WRONG: it invented a higher camera angle and a broad visible lid top that the original photo does not show. Replace the right panel with a literal-looking crop of the ORIGINAL SAME FRONT VIEW in image 1, around the black knob, thin closed lid edge, upper facets and original upper hinge. The lid should appear as the almost edge-on low narrow rim seen in original image 1, NOT as a big oval/octagonal disc seen from above. Do not invent unseen lid panels or an enlarged/pyramid knob top. The knob must preserve its original tall, narrow, slightly tapered polygonal silhouette and almost invisible top. Use the original source blue wall in the panel if needed to preserve photographic evidence.\nAlso make the LEFT panel closely match the original frontal pouring-spout region without changing the object. It may crop the original photo larger but must not use a new camera view or invent more detail. Preserve the spout and water marks as photographed. Both panels must represent the SAME front-facing source photograph, not two imagined macro photos from different viewpoints.\nDo not polish the pot or replace its original worn appearance. Change only those product photo regions; keep the overall commercial design of image 2 unchanged. Square 1:1.",
+          "prompt_sha256": "d08ad1c606f5406439b203bcdf8305eaee409521869f0864f85780856100cd4e",
+          "recorded_at": "2026-09-15T02:34:17.727040+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T02:44:10.767390+00:00",
+              "report": {
+                "candidate_sha256": "aeb529ec57e93f20d76bed64abb8f97b169b9baef37444acb2da809f2461392c",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "已实际查看原始照片与当前工具完整成图。原物上下壶体、左嘴、黑色顶钮与上接下悬侧柄的可见结构保持；局部水渍/划痕与微小标记有生成式重构，不能确认精细一致。 壶盖已修回原照前视，未再以新俯视角冒充细节。"
+                  },
+                  "text": {
+                    "status": "pass",
+                    "evidence": "计划中的中文标题和说明已看图核对，可读且无错漏。本图裁切区域未呈现需逐笔核对的品牌刻字。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "仅呈现当前商品可见结构与日常场景，没有借用竞品容量、材质成分、温度、功率、认证或销售数据。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "修正版两个区域均回到原照前视；右侧不再展示大面积推测顶面。左嘴与壶盖/顶钮分别配标签，间距与字重统一。 结论覆盖本次实际查看的图片尺寸，未单独验证所有手机缩略尺寸。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "当前用途为通用商品附图/详情模块样例，未将其当作平台第一主图合规证明。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T02:32:35.397125+00:00",
+          "event": "generated",
+          "version": 1
+        },
+        {
+          "at": "2026-09-15T02:34:17.729069+00:00",
+          "event": "generated",
+          "version": 2
+        }
+      ]
+    },
+    "MOKA001/scene": {
+      "revisions": [
+        {
+          "version": 1,
+          "file": "images/MOKA001/scene-v1.png",
+          "sha256": "d16680cdda0ef77f2fc8afa772cc226b80134b29a4c22c98cec9b25737690adf",
+          "metadata": {
+            "format": "PNG",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1639602,
+            "sha256": "d16680cdda0ef77f2fc8afa772cc226b80134b29a4c22c98cec9b25737690adf",
+            "has_alpha_channel": false,
+            "decode_check": "not_checked",
+            "transparency_check": "not_checked",
+            "scope": "文件结构与元数据；不证明商品一致、实际透明或平台审核通过。"
+          },
+          "prompt": "Use case: ecommerce lifestyle context, premium product gallery.\nCreate ONE square 1:1 realistic stylish coffee-corner image of the original pot.\nInput 1 is the real original product photo, the sole factual product reference. Input 2 is our commerce overview, style reference for clean graphite/offwhite visual identity, terracotta accents and bold modern Chinese sans-serif only.\nStage a refined ACTUAL everyday tabletop, not a pedestal advertising fantasy: bright contemporary kitchen or coffee nook in soft background, off-white cabinetry and a softly lit window, pale oak tabletop, one modest flat graphite serving tray beneath the exact old moka pot at center-right, one small plain white cup with dark coffee and its saucer at front-left. Both cup and pot rest naturally on surfaces. No extra mugs, plants, packages, coffee grinders, food, hands or stovetop. No steam, pouring action or invented operating function. Directional morning light is elegant and restrained, soft broad highlights preserve silver color; warm wood supplies lifestyle warmth against quiet gray/white surroundings.\nPot fully visible, occupies about 55-65 percent height at original front/slightly elevated reference angle, readily recognizable. Do not replace with a new Bialetti model. Preserve EXACT original faceted silver upper and lower body, waist band and small faint original engraving, closed thin faceted lid, tall black polygonal knob, short left pouring mouth and right black top-connected handle with free bottom end. Retain water spots, thin scratches and worn brownish base; do not polish or regenerate into pristine metal, and do not add valve, markings or unseen construction.\nTop-left headline in dark graphite bold Chinese sans-serif exactly \"日常咖啡角\". A short terracotta-orange rule beneath, then smaller text exactly \"场景搭配示意\". Bottom-left, clear readable small footer exactly \"杯碟与托盘为布景\". No other text. Refined composition with clear product hierarchy and negative space, not overfilled, naturally matching the other three gallery images. No claims about capacity, material, taste, appliance compatibility, temperature, safety, origin, price or warranty.",
+          "prompt_sha256": "c0acf3b820a6fc6e60ef9899f241cf047ebdcb963f0bf0ede1a793dd57fb37b5",
+          "recorded_at": "2026-09-15T02:36:11.357566+00:00",
+          "review_status": "inconclusive",
+          "reviews": [
+            {
+              "at": "2026-09-15T02:44:10.859165+00:00",
+              "report": {
+                "candidate_sha256": "d16680cdda0ef77f2fc8afa772cc226b80134b29a4c22c98cec9b25737690adf",
+                "reference_sha256": {
+                  "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+                },
+                "reviewer": "Codex visual review",
+                "checks": {
+                  "identity": {
+                    "status": "unknown",
+                    "evidence": "已实际查看原始照片与当前工具完整成图。原物上下壶体、左嘴、黑色顶钮与上接下悬侧柄的可见结构保持；局部水渍/划痕与微小标记有生成式重构，不能确认精细一致。"
+                  },
+                  "text": {
+                    "status": "unknown",
+                    "evidence": "计划中的中文标题和说明已看图核对，可读且无错漏。商品原刻字/微小表面标记较小或被重构，未确认逐笔准确。"
+                  },
+                  "claims": {
+                    "status": "pass",
+                    "evidence": "仅呈现当前商品可见结构与日常场景，没有借用竞品容量、材质成分、温度、功率、认证或销售数据。 杯碟和托盘明确标为布景。"
+                  },
+                  "visual": {
+                    "status": "pass",
+                    "evidence": "台面、杯碟和托盘构成可识别咖啡角；商品完整且与道具分离，文本明确道具为布景；与前三张共用黑色无衬线和橙线。 结论覆盖本次实际查看的图片尺寸，未单独验证所有手机缩略尺寸。"
+                  },
+                  "usage": {
+                    "status": "pass",
+                    "evidence": "当前用途为通用商品附图/详情模块样例，未将其当作平台第一主图合规证明。"
+                  }
+                }
+              },
+              "verdict": "inconclusive"
+            }
+          ],
+          "selection": "not_selected",
+          "selection_events": []
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-09-15T02:36:11.358641+00:00",
+          "event": "generated",
+          "version": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Use case: ads-marketing / product feature layout.
+Asset type: premium Chinese ecommerce feature page, one square 1:1 image.
+Input image 1: sole factual product reference, the real used moka pot.
+Input image 2: previously generated campaign image, STYLE REFERENCE ONLY for warm espresso/ivory palette, light and refined serif typography. It is not a second product or proof of details.
+Create a polished editorial feature page matching this warm coffee visual system, with a very different page composition from the hero. A warm ivory left panel covers roughly 60 percent; a deep espresso brown right panel covers 40 percent; one narrow terracotta vertical rule ties them together. Top-left headline in elegant dark coffee Chinese Song serif, exactly "形有棱角，" then "日常有温度". Below, show the ENTIRE single pot large in the left-center, 55 percent canvas height, grounded on a subtle pale stone ledge with soft believable shadow, using the exact reference viewing angle and condition. Do not crop the spout, knob, handle or base.
+On the right panel put two spacious editorial notes in warm ivory, with small simple sequence numbers "01" and "02", and exact Chinese text:
+"多面壶身"
+"开放式侧柄"
+A thin understated line can relate the first label to a visible body facet and the second to the visible free-ended handle. No circular regenerated macro photographs, no X-ray, no extra duplicate pots. Make the design striking, spacious and richly composed with readable alignment and hierarchy. No fake logo, brand, claims, capacity, materials, price or QR.
+Product invariants: the same faceted silver upper chamber, tapering lower boiler, cylindrical middle band, closed faceted lid with black polygonal knob, short left pouring lip, right black angular handle attached ONLY at its upper hinge, lower end hanging free. Original water spots, thin scratches, darker patches and worn brownish base edge remain, not polished into a new item. Keep tiny original faint engraving, never invent replacement text. Product is silver, not gold, brass or ceramic. Keep the full structure at the same angle as image 1. This is an attractive presentation of the pictured used object.

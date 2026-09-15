@@ -1,0 +1,29 @@
+{
+  "candidate_sha256": "4cc51760ffcbc252c7e4a279061536b6891795a313700627e0033cc8d7d1daee",
+  "reference_sha256": {
+    "original": "aad459b53e5b610eda6ceef98a171e0efe5f37c97ea39e07e5feca373eeb8fc6"
+  },
+  "reviewer": "Codex visual review",
+  "checks": {
+    "identity": {
+      "status": "unknown",
+      "evidence": "同时对照已查看的原图与工具返回完整成图：上下多面壶体、中段圆环、黑色顶钮、左嘴和右侧上接下悬的把手保持；原图旧痕仍可见，但局部水渍与划痕有重构，精细一致性无法确认。"
+    },
+    "text": {
+      "status": "unknown",
+      "evidence": "没有叠加营销文字。 原壶中段刻字较小且随生成变得更清楚/笔画有所变化，无法确认原厂刻字逐笔准确；不把字样当作已确认商品品牌。"
+    },
+    "claims": {
+      "status": "pass",
+      "evidence": "仅描述可见外观或咖啡情境，没有容量、成分、功效、兼容炉具、折扣和销售量声明；主商品仅一只壶，无新增售卖配件。"
+    },
+    "visual": {
+      "status": "pass",
+      "evidence": "独立白底方图，整壶完整、主体明确、底部有接触阴影；周边留白偏少但未裁切。"
+    },
+    "usage": {
+      "status": "pass",
+      "evidence": "符合本次通用图片/版式演示用途；未指定销售平台，不代表平台审核通过或可直接发布。"
+    }
+  }
+}
