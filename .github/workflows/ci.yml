@@ -24,4 +24,15 @@ jobs:
       - name: Build distributable skills
         run: python tools/build.py
       - name: Check generated files match their sources
-        run: git diff --exit-code -- skills/
+        run: |
+          git diff --exit-code -- skills/ ':!skills/.generated.json'
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          committed = json.loads(subprocess.check_output(
+              ['git', 'show', 'HEAD:skills/.generated.json']))
+          rebuilt = json.loads(Path('skills/.generated.json').read_text())
+          assert committed == rebuilt, 'Generated file hashes or package metadata changed'
+          PY
